@@ -8,34 +8,19 @@ namespace ClassLibrary1
     public class Simulacion
     {
         public int Fecha_Inicio
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public int Fecha_Final
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public int Monto
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public int Nombre_Entidad
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public int Plazo
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public void Listar()
         {

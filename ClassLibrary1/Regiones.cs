@@ -8,22 +8,13 @@ namespace ClassLibrary1
     public class Regiones
     {
         public int Nombre_Region
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public int Mapeo
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public Tasas Tasas
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public void Listar()
         {

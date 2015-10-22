@@ -9,53 +9,21 @@ namespace ClassLibrary1
     public class usuario
     {
         public int idusuario
-        {
-            get;
-            set;
-
-        }
+        {   get; set;}
 
         public int nombre
-        {
-            get;
-
-            set;
-
-        }
+        {   get; set;}
 
         public int apellido
-        {
-            get;
-            
-            set;
-            
-        }
+        {   get; set;}
 
         public int telefono
-        {
-            get;
-
-            set;
-            
-        }
+        {   get; set;}
         public login login
-        {
-            get;
-
-            set;
-
-        }
+        {   get; set;}
 
         public login login1
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+        {   get; set;}
 
         public void listar()
         {

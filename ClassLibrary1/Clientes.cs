@@ -8,33 +8,18 @@ namespace ClassLibrary1
     public class Clientes
     {
         public int Nombre
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public int Razon_Social
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public int RUC
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public Tasas Tasas
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public Tasas Tasas1
-        {
-            get;
-            set;
-        }
+        {   get; set;}
     }
 }

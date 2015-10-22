@@ -8,40 +8,22 @@ namespace ClassLibrary1
     public class EntidadesFinancieras
     {
         public int Descripcion_Entidad
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public int Lugar_Entidad
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public int Nombre_Entidad
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public int Tipo_Entidad
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public Simulacion Simulacion
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public Simulacion Simulacion1
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public void Agregar()
         {

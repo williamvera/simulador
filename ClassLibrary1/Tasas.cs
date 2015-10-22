@@ -32,22 +32,13 @@ namespace ClassLibrary1
         }
 
         public EntidadesFinancieras EntidadesFinancieras
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public Simulacion Simulacion
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public Regiones Regiones
-        {
-            get;
-            set;
-        }
+        {   get; set;}
 
         public void Agregar()
         {
