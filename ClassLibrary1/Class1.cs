@@ -46,6 +46,17 @@ namespace ClassLibrary1
 
         }
 
+        public login login1
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         public void listar()
         {
             throw new System.NotImplementedException();

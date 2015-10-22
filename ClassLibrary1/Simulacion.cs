@@ -5,9 +5,9 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    public class Tasas
+    public class Simulacion
     {
-        public int Cantidad
+        public int Fecha_Inicio
         {
             get
             {
@@ -18,7 +18,18 @@ namespace ClassLibrary1
             }
         }
 
-        public int Frecuencia
+        public int Fecha_Final
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int Monto
         {
             get
             {
@@ -40,7 +51,7 @@ namespace ClassLibrary1
             }
         }
 
-        public int Numero_Tasas
+        public int Plazo
         {
             get
             {
@@ -49,57 +60,9 @@ namespace ClassLibrary1
             set
             {
             }
-        }
-
-        public EntidadesFinancieras EntidadesFinancieras
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public Simulacion Simulacion
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public Regiones Regiones
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public void Agregar()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Eliminar()
-        {
-            throw new System.NotImplementedException();
         }
 
         public void Listar()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Modificar()
         {
             throw new System.NotImplementedException();
         }

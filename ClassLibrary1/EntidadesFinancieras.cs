@@ -5,9 +5,9 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    public class Tasas
+    public class EntidadesFinancieras
     {
-        public int Cantidad
+        public int Descripcion_Entidad
         {
             get
             {
@@ -18,7 +18,7 @@ namespace ClassLibrary1
             }
         }
 
-        public int Frecuencia
+        public int Lugar_Entidad
         {
             get
             {
@@ -40,18 +40,7 @@ namespace ClassLibrary1
             }
         }
 
-        public int Numero_Tasas
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public EntidadesFinancieras EntidadesFinancieras
+        public int Tipo_Entidad
         {
             get
             {
@@ -73,7 +62,7 @@ namespace ClassLibrary1
             }
         }
 
-        public Regiones Regiones
+        public Simulacion Simulacion1
         {
             get
             {

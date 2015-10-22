@@ -47,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Clientes.cs" />
     <Compile Include="Contexto.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
+    <Compile Include="EntidadesFinancieras.cs" />
     <Compile Include="login.cs" />
     <Compile Include="Migrations\201510171807021_app.cs" />
     <Compile Include="Migrations\201510171807021_app.Designer.cs">
@@ -57,11 +59,13 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Regiones.cs" />
+    <Compile Include="Simulacion.cs" />
     <Compile Include="Tasas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
+    <None Include="Diagrama de Clases.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
