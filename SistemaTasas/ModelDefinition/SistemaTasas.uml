@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="a6b72f3a-7fc4-468f-ac5f-c99758753e0c"
+  name="SistemaTasas" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="5fc6fbbd-7aaf-4f4e-a8b6-5536ed178563"
+        name="Administrador"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="bdafb0fe-fce6-4e94-88cd-fcdb2509d919"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Pkg_Seguridad"
+            isLeaf="false"
+            isAbstract="false">
+            <subsystemMoniker
+              Id="fc4a0067-d362-43ed-b1d8-c58fe2585fbf"
+              LastKnownName="Pkg_Seguridad"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fabbcff8-ca69-4f46-8701-0d679d6aa6ee"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="92107dd1-3052-43dd-934f-2c04007d2850"
+                  name="Pkg_Seguridad"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="372df761-c4d7-4019-8200-6c715988a24f"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Logout"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f25b035e-10d2-4558-8295-3b1e3be95cc2"
+              LastKnownName="Logout"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="152dcd6c-eb68-4b8c-bc43-52356c83088a"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="280d4882-c045-44f8-9907-76fa53e61cd0"
+                  name="Logout"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="cab89e6b-6272-4075-806b-006237b78454"
+        name="Cliente"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="da3834a9-fcf1-439d-ae32-88d47bf3671c"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="5fc6fbbd-7aaf-4f4e-a8b6-5536ed178563"
+              LastKnownName="Administrador"
+              LastKnownLocation="SistemaTasas.uml" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="890ff53b-e0b5-45ce-ab92-73225bb30b9b"
+        name="Login"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="a68e1c2b-3e32-41e3-afa5-a2b61c0a036a">
+            <useCaseMoniker
+              Id="5aa4b365-3e2b-4067-8d75-85a0fb4bea78"
+              LastKnownName="Simulacion_Entidades"
+              LastKnownLocation="SistemaTasas.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="b629f201-bd33-42b9-8169-29cbe4470db1"
+            isDerived="false"
+            sourceEndRoleName="Login"
+            targetEndRoleName="Logout"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a6bbf201-90b3-4910-b5a9-b8d6c5aca1c2"
+              LastKnownName="Logout"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fd49ca68-9fb3-4b50-8c19-d5a49d2d21aa"
+                  name="Login"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1fcace0d-5e49-4733-9164-076203cbca4e"
+                  name="Logout"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="fc4a0067-d362-43ed-b1d8-c58fe2585fbf"
+            LastKnownName="Pkg_Seguridad"
+            LastKnownLocation="SistemaTasas.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="cb39c682-f711-4002-adbb-85b946f12bdf"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="3f8f3ee0-c96e-4246-ab98-23a8db45ae87"
+        name="Subsystem1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="b1b0ae4e-279d-4d5b-a1ff-702d94497db5"
+        name="Artifact1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f25b035e-10d2-4558-8295-3b1e3be95cc2"
+        name="Logout"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="fc4a0067-d362-43ed-b1d8-c58fe2585fbf"
+        name="Pkg_Seguridad"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="27a39c9d-b902-4cb7-90b1-290fe8b72134"
+            isDerived="false"
+            sourceEndRoleName="Pkg_Seguridad"
+            targetEndRoleName="Menu Principal"
+            isLeaf="false"
+            isAbstract="false">
+            <subsystemMoniker
+              Id="fe7a436f-2adc-49d9-a181-8703f509bb35"
+              LastKnownName="Menu Principal"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a58f8026-dfd2-43b3-b0b9-f5faad50d92d"
+                  name="Pkg_Seguridad"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a6227e23-3285-4fb2-be9e-d67937596148"
+                  name="Menu Principal"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </subsystem>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9fe6a0ff-5ade-49cc-b778-5a5edf9c98a5"
+        name="UseCase3"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2c56e523-dfdc-4408-8263-0ebe087af2eb"
+        name="Ver Tasas Pasivas"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="462c09d6-0138-44eb-907d-c115cf0ca849">
+            <useCaseMoniker
+              Id="0867b8b9-78ea-4dee-9d2b-cc34f9928ca8"
+              LastKnownName="Ver Regiones"
+              LastKnownLocation="SistemaTasas.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="6629bbdf-81c0-490a-9171-07986fb772bf">
+            <useCaseMoniker
+              Id="5aa4b365-3e2b-4067-8d75-85a0fb4bea78"
+              LastKnownName="Simulacion_Entidades"
+              LastKnownLocation="SistemaTasas.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="fe7a436f-2adc-49d9-a181-8703f509bb35"
+            LastKnownName="Menu Principal"
+            LastKnownLocation="SistemaTasas.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d5b9edf1-b3e6-4c1a-809b-cd0b153ccaae"
+        name="Ver Entidades F."
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="adc3705e-fd8f-4e0f-81f6-69682a2e0327">
+            <useCaseMoniker
+              Id="5aa4b365-3e2b-4067-8d75-85a0fb4bea78"
+              LastKnownName="Simulacion_Entidades"
+              LastKnownLocation="SistemaTasas.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="fe7a436f-2adc-49d9-a181-8703f509bb35"
+            LastKnownName="Menu Principal"
+            LastKnownLocation="SistemaTasas.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="fe7a436f-2adc-49d9-a181-8703f509bb35"
+        name="Menu Principal"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5aa4b365-3e2b-4067-8d75-85a0fb4bea78"
+        name="Simulacion_Entidades"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="fe7a436f-2adc-49d9-a181-8703f509bb35"
+            LastKnownName="Menu Principal"
+            LastKnownLocation="SistemaTasas.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0867b8b9-78ea-4dee-9d2b-cc34f9928ca8"
+        name="Ver Regiones"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="fe7a436f-2adc-49d9-a181-8703f509bb35"
+            LastKnownName="Menu Principal"
+            LastKnownLocation="SistemaTasas.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a6bbf201-90b3-4910-b5a9-b8d6c5aca1c2"
+        name="Logout"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="fc4a0067-d362-43ed-b1d8-c58fe2585fbf"
+            LastKnownName="Pkg_Seguridad"
+            LastKnownLocation="SistemaTasas.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
