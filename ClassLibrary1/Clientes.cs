@@ -7,6 +7,11 @@ namespace ClassLibrary1
 {
     public class Clientes
     {
+
+        
+        /// <summary>
+        /// 
+        /// </summary>
         public int Nombre
         {   get; set;}
 
