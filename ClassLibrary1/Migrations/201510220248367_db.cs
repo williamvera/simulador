@@ -3,7 +3,7 @@ namespace ClassLibrary1.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class app : DbMigration
+    public partial class db : DbMigration
     {
         public override void Up()
         {
@@ -25,16 +25,21 @@ namespace ClassLibrary1.Migrations
                         apellido = c.Int(nullable: false),
                         telefono = c.Int(nullable: false),
                         login_idlogin = c.Int(),
+                        login1_idlogin = c.Int(),
                     })
                 .PrimaryKey(t => t.idusuario)
                 .ForeignKey("dbo.logins", t => t.login_idlogin)
-                .Index(t => t.login_idlogin);
+                .ForeignKey("dbo.logins", t => t.login1_idlogin)
+                .Index(t => t.login_idlogin)
+                .Index(t => t.login1_idlogin);
             
         }
         
         public override void Down()
         {
+            DropForeignKey("dbo.usuarios", "login1_idlogin", "dbo.logins");
             DropForeignKey("dbo.usuarios", "login_idlogin", "dbo.logins");
+            DropIndex("dbo.usuarios", new[] { "login1_idlogin" });
             DropIndex("dbo.usuarios", new[] { "login_idlogin" });
             DropTable("dbo.usuarios");
             DropTable("dbo.logins");
