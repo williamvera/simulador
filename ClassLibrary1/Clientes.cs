@@ -73,7 +73,7 @@ namespace ClassLibrary1
             }
         }
 
-        public int id_tasas_cliente
+        public int idtasas_cliente
         {
             get
             {

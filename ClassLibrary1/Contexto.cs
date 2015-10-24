@@ -13,13 +13,20 @@ namespace ClassLibrary1
             : base("CNX")
         {
         }
-        public DbSet<usuario> usuario { get; set; }
+        public DbSet<cliente> usuario { get; set; }
         public DbSet<login> login { get; set; }
+        public DbSet<tasas_cliente> login { get; set; }
+        public DbSet<entidad_financiera> login { get; set; }
+        public DbSet<tasas> login { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<usuario>().HasKey(k => k.idusuario);
+            modelBuilder.Entity<cliente>().HasKey(k => k.idcliente);
             modelBuilder.Entity<login>().HasKey(k => k.idlogin);
+            modelBuilder.Entity<tasas_cliente>().HasKey(k => k.idtasas_cliente);
+            modelBuilder.Entity<entidad_financiera>().HasKey(k => k.identidad_financiera);
+            modelBuilder.Entity<tasas>().HasKey(k => k.idtasas);
+
         }
     }
 }

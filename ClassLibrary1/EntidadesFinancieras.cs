@@ -19,18 +19,7 @@ namespace ClassLibrary1
         public int tipo_entidad
         { get; set; }
 
-        public int tipo_tasas
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public int clinete
+        public int nombre_cliente
         {
             get
             {

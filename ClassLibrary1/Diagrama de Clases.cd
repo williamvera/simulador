@@ -23,7 +23,7 @@
   <Class Name="ClassLibrary1.cliente">
     <Position X="3" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAQAAABgACgAAACAAAAAAAAEAAAAAgAAAhI=</HashCode>
+      <HashCode>AAAAAACAAAQAAABgACgAAACAAAAAEAAEAAAAAgAAABI=</HashCode>
       <FileName>Clientes.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -33,7 +33,7 @@
   <Class Name="ClassLibrary1.entidad_financiera">
     <Position X="10" Y="1.25" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAIAAAQgEAAIABACBEAAAAACAAAAAAAAEAAAAAAABA=</HashCode>
+      <HashCode>AAAIAABQAEAAIABACAEAAAAACAAAAAAAAEAAAAAAABA=</HashCode>
       <FileName>EntidadesFinancieras.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
