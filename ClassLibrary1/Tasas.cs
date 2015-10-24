@@ -5,103 +5,66 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    public class tasas_cliente
+    public class tasas
     {
-        public int monto
-        {
-            get;
-            set;
-        }
-
-        public int nombre_entidad
-        {
-            get;
-            set;
-        }
-
-        public int direccion
-        {   get; set;}
-
-        public int tipo_entidad
-        {  get; set;}
-
-        public int nombre_rsocial
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public int tipo_tasas
+        public int Fecha
         { get; set; }
 
-        public int descripcion
+        public int Monto
+        {   get; set;}
+
+        public int d_ahorro
+        { get; set; }
+
+        public int d_plazos
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
 
-        public int fecha
+        public int d_cts
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
 
-        public int idtasas_cliente
+        public int d_plazos_pn
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
 
-        public int identidad
+        public int d_plazos_pj
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
 
-        public int idcliente
+        public int idtasas
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
+        }
+
+        public entidad_financiera entidad_financiera
+        {
+            get;
+            set;
+        }
+
+        public int ientidad_financiera
+        {
+            get;
+            set;
         }
 
         public void Listar()
         {
             throw new System.NotImplementedException();
         }
+    }
 
-        public void modificar()
-        {
-            throw new System.NotImplementedException();
-        }
+    public class simulacion
+    {
     }
 }

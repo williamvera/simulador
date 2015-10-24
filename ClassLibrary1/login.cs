@@ -10,38 +10,9 @@ namespace ClassLibrary1
         public int idlogin { get; set; }
         public int password { get; set; }
 
-        public int idcliente
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public usuario usuario
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public cliente cliente
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+        public int idcliente { get; set;}
+        
+        public int cliente { get; set;}
 
         public void crear_cuenta()
         {
