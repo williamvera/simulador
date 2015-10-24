@@ -4,64 +4,54 @@
     <Position X="0.708" Y="0.635" Height="0.354" Width="1.45" />
   </Comment>
   <Class Name="ClassLibrary1.usuario">
-    <Position X="0.5" Y="1.5" Width="1.5" />
+    <Position X="2.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQEAADAAAAAAAAAAAAAAAAAAAAAAAAAEAI=</HashCode>
+      <HashCode>AAAAAAABAAAMAADgAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>Class1.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="login1" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="ClassLibrary1.login">
-    <Position X="3.25" Y="1.25" Width="1.5" />
+    <Position X="0.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAQAAEAAAAAAAAAAAIgAAAAAREAAgAAgAAAAA=</HashCode>
       <FileName>login.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="ClassLibrary1.Tasas">
-    <Position X="5.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>IAAIAAESAEQACAAACAAAAgAAAAAAABAAAAAAAAAAAAA=</HashCode>
-      <FileName>Tasas.cs</FileName>
-    </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Simulacion" />
-      <Property Name="Regiones" />
+      <Property Name="usuario" />
+      <Property Name="cliente" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="ClassLibrary1.Clientes">
-    <Position X="8" Y="0.75" Width="1.5" />
+  <Class Name="ClassLibrary1.tasas_cliente">
+    <Position X="5.25" Y="2.75" Width="3.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAABAgAAAAACAAAAAAAAAIAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAUAAIAAAABkAAACACAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Tasas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary1.cliente">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAQAAABgACAAAACAAAAAAAAAAAAAAgAAABI=</HashCode>
       <FileName>Clientes.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Tasas1" />
+      <Property Name="tasas_cliente" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="ClassLibrary1.EntidadesFinancieras">
-    <Position X="11" Y="0.5" Width="1.5" />
+  <Class Name="ClassLibrary1.entidad_financiera">
+    <Position X="10" Y="2.25" Width="3" />
     <TypeIdentifier>
-      <HashCode>IAAIAAAQAEQAAQAACAAAAAAAAAAAAAAAAAAAAEBAAEA=</HashCode>
+      <HashCode>AAAAAAAQgEAAIAAACBEAAAAACAAAAAAAAEAAAAAAABA=</HashCode>
       <FileName>EntidadesFinancieras.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Simulacion1" />
+      <Property Name="tasas_cliente" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="ClassLibrary1.Regiones">
-    <Position X="3.75" Y="4" Width="1.5" />
+  <Class Name="ClassLibrary1.tasas">
+    <Position X="10.75" Y="6" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAEAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAIAAAAAA=</HashCode>
-      <FileName>Regiones.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ClassLibrary1.Simulacion">
-    <Position X="8" Y="4.25" Width="2.25" />
-    <TypeIdentifier>
-      <HashCode>AAAIAAAAAEAAAAAAAAAAAAAIAAABAAAAACAAAAIAAAA=</HashCode>
+      <HashCode>AAAAAAAEAEAAAAEAAAAAAAAIAWAAAAAAAAAAEAAAAAA=</HashCode>
       <FileName>Simulacion.cs</FileName>
     </TypeIdentifier>
   </Class>
