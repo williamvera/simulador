@@ -5,32 +5,54 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    public class EntidadesFinancieras
+    public class entidad_financiera
     {
-        public int Descripcion_Entidad
+        public int descripcion
         {   get; set;}
 
-        public int Lugar_Entidad
+        public int direccion
         {   get; set;}
 
-        public int Nombre_Entidad
+        public int nombre_entidad
         {   get; set;}
 
-        public int Tipo_Entidad
-        {   get; set;}
+        public int tipo_entidad
+        { get; set; }
 
-        public Simulacion Simulacion
-        {   get; set;}
-
-        public Simulacion Simulacion1
-        {   get; set;}
-
-        public void Agregar()
+        public int tipo_tasas
         {
-            throw new System.NotImplementedException();
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }
 
-        public void Eliminar()
+        public int clinete
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public tasas_cliente tasas_cliente
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public void Agregar()
         {
             throw new System.NotImplementedException();
         }

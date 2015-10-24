@@ -5,26 +5,68 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    public class Simulacion
+    public class tasas : entidad_financiera
     {
-        public int Fecha_Inicio
-        {   get; set;}
-
-        public int Fecha_Final
-        {   get; set;}
+        public int Fecha
+        { get; set; }
 
         public int Monto
         {   get; set;}
 
-        public int Nombre_Entidad
-        {   get; set;}
+        public int d_ahorro
+        { get; set; }
 
-        public int Plazo
-        {   get; set;}
+        public int d_plazos
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int d_cts
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int d_plazos_pn
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int d_plazos_pj
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
 
         public void Listar()
         {
             throw new System.NotImplementedException();
         }
+    }
+
+    public class simulacion
+    {
     }
 }

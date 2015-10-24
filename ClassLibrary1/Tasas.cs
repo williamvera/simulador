@@ -5,57 +5,79 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    public class Tasas
+    public class tasas_cliente
     {
-        public int Cantidad
+        public int monto
         {
             get;
             set;
         }
 
-        public int Frecuencia
+        public int nombre_entidad
         {
             get;
             set;
         }
 
-        public int Nombre_Entidad
-        {
-            get;
-            set;
-        }
-
-        public int Numero_Tasas
-        {
-            get;
-            set;
-        }
-
-        public EntidadesFinancieras EntidadesFinancieras
+        public Regiones direccion
         {   get; set;}
 
-        public Simulacion Simulacion
-        {   get; set;}
-
-        public Regiones Regiones
-        {   get; set;}
-
-        public void Agregar()
+        public int tipo_entidad
         {
-            throw new System.NotImplementedException();
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }
 
-        public void Eliminar()
+        public int nombre_rsocial
         {
-            throw new System.NotImplementedException();
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int tipo_tasas
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int descripcion
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int fecha
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }
 
         public void Listar()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Modificar()
         {
             throw new System.NotImplementedException();
         }

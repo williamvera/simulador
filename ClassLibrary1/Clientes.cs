@@ -5,26 +5,76 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    public class Clientes
+    public class cliente
     {
 
         
         /// <summary>
         /// 
         /// </summary>
-        public int Nombre
-        {   get; set;}
+        public int nombre_rsocial
+        { get; set; }
 
-        public int Razon_Social
-        {   get; set;}
+        public int dni_ruc
+        { get; set; }
 
-        public int RUC
-        {   get; set;}
+        public int telefono
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
 
-        public Tasas Tasas
-        {   get; set;}
+        public int email
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
 
-        public Tasas Tasas1
-        {   get; set;}
+        public int password
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public tasas_cliente tasas_cliente
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public void listar()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void ver()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void simular()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

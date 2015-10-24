@@ -13,7 +13,7 @@ namespace ClassLibrary1
         public int Mapeo
         {   get; set;}
 
-        public Tasas Tasas
+        public tasas_cliente Tasas
         {   get; set;}
 
         public void Listar()
