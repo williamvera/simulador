@@ -52,6 +52,28 @@ namespace ClassLibrary1
             }
         }
 
+        public int identidad_financiera
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int idtas_cliente
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         public void Agregar()
         {
             throw new System.NotImplementedException();

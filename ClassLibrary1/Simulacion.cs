@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    public class tasas : entidad_financiera
+    public class tasas
     {
         public int Fecha
         { get; set; }
@@ -50,6 +50,39 @@ namespace ClassLibrary1
         }
 
         public int d_plazos_pj
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int idtasas
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public entidad_financiera entidad_financiera
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int ientidad_financiera
         {
             get
             {

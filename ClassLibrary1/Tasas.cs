@@ -77,7 +77,45 @@ namespace ClassLibrary1
             }
         }
 
+        public int idtasas_cliente
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int identidad
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int idcliente
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         public void Listar()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void modificar()
         {
             throw new System.NotImplementedException();
         }

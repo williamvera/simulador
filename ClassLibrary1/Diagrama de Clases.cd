@@ -3,35 +3,27 @@
   <Comment CommentText="SIMULACION TASAS">
     <Position X="0.708" Y="0.635" Height="0.354" Width="1.45" />
   </Comment>
-  <Class Name="ClassLibrary1.usuario">
-    <Position X="2.75" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAABAAAMAADgAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
-      <FileName>Class1.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="ClassLibrary1.login">
-    <Position X="0.5" Y="3" Width="1.5" />
+    <Position X="0.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAQAAEAAAAAAAAAAAIgAAAAAREAAgAAgAAAAA=</HashCode>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAIgAAAAAREAAgAAgAAAAA=</HashCode>
       <FileName>login.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="usuario" />
       <Property Name="cliente" />
     </ShowAsAssociation>
   </Class>
   <Class Name="ClassLibrary1.tasas_cliente">
-    <Position X="5.25" Y="2.75" Width="3.75" />
+    <Position X="5.5" Y="1" Width="3.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAUAAIAAAABkAAACACAAAAAAAAEAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAUAIIAAAABkAAACACAAAEAAEAEBAAAAAAAA=</HashCode>
       <FileName>Tasas.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibrary1.cliente">
-    <Position X="2.75" Y="5.25" Width="1.5" />
+    <Position X="3" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAQAAABgACAAAACAAAAAAAAAAAAAAgAAABI=</HashCode>
+      <HashCode>AAAAAACAAAQAAABgACgAAACAAAAAAAAEAAAAAgAAAhI=</HashCode>
       <FileName>Clientes.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -39,9 +31,9 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="ClassLibrary1.entidad_financiera">
-    <Position X="10" Y="2.25" Width="3" />
+    <Position X="10" Y="1.25" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAQgEAAIAAACBEAAAAACAAAAAAAAEAAAAAAABA=</HashCode>
+      <HashCode>AAAIAAAQgEAAIABACBEAAAAACAAAAAAAAEAAAAAAABA=</HashCode>
       <FileName>EntidadesFinancieras.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -49,11 +41,14 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="ClassLibrary1.tasas">
-    <Position X="10.75" Y="6" Width="2.25" />
+    <Position X="6.75" Y="5.25" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAEAAAAEAAAAAAAAIAWAAAAAAAAAAEAAAAAA=</HashCode>
+      <HashCode>QAAAAAAEAEAAAAEBAAAAAAAIAWAAAACAAAAAEAAAAAA=</HashCode>
       <FileName>Simulacion.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="entidad_financiera" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

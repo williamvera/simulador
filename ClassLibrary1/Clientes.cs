@@ -62,6 +62,28 @@ namespace ClassLibrary1
             }
         }
 
+        public int idcliente
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int id_tasas_cliente
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         public void listar()
         {
             throw new System.NotImplementedException();
@@ -73,6 +95,11 @@ namespace ClassLibrary1
         }
 
         public void simular()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void monto()
         {
             throw new System.NotImplementedException();
         }

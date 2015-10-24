@@ -10,17 +10,6 @@ namespace ClassLibrary1
         public int idlogin { get; set; }
         public int password { get; set; }
 
-        public int idusuario
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
         public int idcliente
         {
             get
