@@ -19,19 +19,11 @@ namespace ClassLibrary1
             set;
         }
 
-        public Regiones direccion
+        public int direccion
         {   get; set;}
 
         public int tipo_entidad
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+        {  get; set;}
 
         public int nombre_rsocial
         {
@@ -45,15 +37,7 @@ namespace ClassLibrary1
         }
 
         public int tipo_tasas
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+        { get; set; }
 
         public int descripcion
         {

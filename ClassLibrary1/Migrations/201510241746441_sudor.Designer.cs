@@ -7,13 +7,13 @@ namespace ClassLibrary1.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class db : IMigrationMetadata
+    public sealed partial class sudor : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(db));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(sudor));
         
         string IMigrationMetadata.Id
         {
-            get { return "201510220248367_db"; }
+            get { return "201510241746441_sudor"; }
         }
         
         string IMigrationMetadata.Source

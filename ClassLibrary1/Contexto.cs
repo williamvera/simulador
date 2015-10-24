@@ -13,11 +13,11 @@ namespace ClassLibrary1
             : base("CNX")
         {
         }
-        public DbSet<cliente> usuario { get; set; }
+        public DbSet<cliente> cliente { get; set; }
         public DbSet<login> login { get; set; }
-        public DbSet<tasas_cliente> login { get; set; }
-        public DbSet<entidad_financiera> login { get; set; }
-        public DbSet<tasas> login { get; set; }
+        public DbSet<tasas_cliente> tasas_cliente { get; set; }
+        public DbSet<entidad_financiera> entidad_financiera { get; set; }
+        public DbSet<tasas> tasas { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
