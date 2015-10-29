@@ -16,7 +16,9 @@ namespace ClassLibrary1
         public int idcliente { get; set;}
         
         public int cliente { get; set;}
-
+        /// <summary>
+        /// metodos de la clase
+        /// </summary>
         public void crear_cuenta()
         {
             throw new System.NotImplementedException();

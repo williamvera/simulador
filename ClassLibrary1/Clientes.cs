@@ -7,8 +7,6 @@ namespace ClassLibrary1
 {
     public class cliente
     {
-
-        
         /// <summary>
         /// Esta Clase cliente nos sirve para indicar los campos del cliente, y los metodos que se utilizaran
         /// </summary>
@@ -32,7 +30,9 @@ namespace ClassLibrary1
             get;
             set;
         }
-
+        /// <summary>
+        /// metodos de la clase
+        /// </summary>
         public tasas_cliente tasas_cliente
         {
             get;

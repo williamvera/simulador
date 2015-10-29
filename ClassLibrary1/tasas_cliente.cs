@@ -32,7 +32,9 @@ namespace ClassLibrary1
             get;
             set;
         }
-
+        /// <summary>
+        /// metodos de la clase
+        /// </summary>
         public void listar()
         {
             throw new System.NotImplementedException();

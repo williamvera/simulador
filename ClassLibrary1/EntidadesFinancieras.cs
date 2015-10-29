@@ -48,15 +48,12 @@ namespace ClassLibrary1
 
         public tasas_cliente tasas_cliente1
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
-
+        /// <summary>
+        /// metodos de la clase
+        /// </summary>
         public void Agregar()
         {
             throw new System.NotImplementedException();
