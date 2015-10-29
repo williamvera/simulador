@@ -7,6 +7,9 @@ namespace ClassLibrary1
 {
     public class login
     {
+        /// <summary>
+        /// Esta Clase login nos sirve para indicar los campos del login, y los metodos que se utilizaran
+        /// </summary>
         public int idlogin { get; set; }
         public int password { get; set; }
 

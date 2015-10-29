@@ -9,6 +9,9 @@ namespace ClassLibrary1
 {
     public class Contexto : DbContext
     {
+        /// <summary>
+        /// Esta Clase contexto nos sirve para indicar los parametros de conexion estaleciendo los Id principales de cada clase 
+        /// </summary>
         public Contexto()
             : base("CNX")
         {

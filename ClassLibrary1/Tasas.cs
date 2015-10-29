@@ -7,6 +7,9 @@ namespace ClassLibrary1
 {
     public class tasas
     {
+        /// <summary>
+        /// Esta Clase tasas nos sirve para indicar los campos de las tasas, y los metodos que se utilizaran
+        /// </summary>
         public int Fecha
         { get; set; }
 

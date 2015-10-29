@@ -10,7 +10,7 @@ namespace ClassLibrary1
 
         
         /// <summary>
-        /// 
+        /// Esta Clase cliente nos sirve para indicar los campos del cliente, y los metodos que se utilizaran
         /// </summary>
         public int nombre_rsocial
         { get; set; }
