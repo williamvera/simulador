@@ -13,14 +13,14 @@
   <Class Name="ClassLibrary1.cliente">
     <Position X="3" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAQAAABgACgAAACAAAAAEAAEAAAAAgAAABI=</HashCode>
+      <HashCode>AAAAAACAAAQAAAAgACgAAACAAABBEAAEAAAAAgAAABI=</HashCode>
       <FileName>Clientes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibrary1.entidad_financiera">
     <Position X="10" Y="1.25" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAIAABQAEAAIABACAEAAAAACAAAAAAAAEAAAAAAABI=</HashCode>
+      <HashCode>AAAIAABQAAAAIABACAEAAAAACAAAAAAAAEAAAAAAABI=</HashCode>
       <FileName>EntidadesFinancieras.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -30,7 +30,7 @@
   <Class Name="ClassLibrary1.tasas">
     <Position X="6.75" Y="5.25" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>QAAAAAAEAEAAAAEBAAAAAAAIAWAAAACAAAAAEAAAAAA=</HashCode>
+      <HashCode>QAAAAAAEAAAAAAEBAAAAAAAIAWAAAACAAAAAEAAAAAA=</HashCode>
       <FileName>tasas.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -40,7 +40,7 @@
   <Class Name="ClassLibrary1.tasas_cliente">
     <Position X="6.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAIAAAAAAAAAABAAAAAAAAAgAAAEAAEAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAIAAAAAAAIAAAAAAAAAAAAgAAAEAAEAAAAAAAAAAA=</HashCode>
       <FileName>tasas_cliente.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>

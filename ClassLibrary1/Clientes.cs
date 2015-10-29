@@ -51,11 +51,6 @@ namespace ClassLibrary1
             set;
         }
 
-        public void listar()
-        {
-            throw new System.NotImplementedException();
-        }
-
         public void ver()
         {
             throw new System.NotImplementedException();
@@ -67,6 +62,16 @@ namespace ClassLibrary1
         }
 
         public void monto()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void crear()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void anular()
         {
             throw new System.NotImplementedException();
         }

@@ -60,13 +60,6 @@ namespace ClassLibrary1
             get;
             set;
         }
-        /// <summary>
-        /// metodos de la clase
-        /// </summary>
-        public void Listar()
-        {
-            throw new System.NotImplementedException();
-        }
     }
 
     public class simulacion

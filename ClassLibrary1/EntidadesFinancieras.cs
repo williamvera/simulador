@@ -59,11 +59,6 @@ namespace ClassLibrary1
             throw new System.NotImplementedException();
         }
 
-        public void Listar()
-        {
-            throw new System.NotImplementedException();
-        }
-
         public void Modificar()
         {
             throw new System.NotImplementedException();
