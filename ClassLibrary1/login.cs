@@ -6,12 +6,12 @@ using System.Text;
 namespace ClassLibrary1
 {
     /// <summary>
-    /// 
+    /// Esta Clase login nos sirve para indicar los campos del login, y los metodos que se utilizaran
     /// </summary>
     public class login
     {
         /// <summary>
-        /// Esta Clase login nos sirve para indicar los campos del login, y los metodos que se utilizaran
+        /// propiedad idlogin es le identificador del login
         /// </summary>
         public int idlogin { get; set; }
         public int password { get; set; }

@@ -19,18 +19,6 @@ namespace ClassLibrary1
         public int tipo_entidad
         { get; set; }
 
-        public int nombre_cliente
-        {
-            get;
-            set;
-        }
-
-        public tasas_cliente tasas_cliente
-        {
-            get;
-            set;
-        }
-
         public int identidad_financiera
         {
             get;
