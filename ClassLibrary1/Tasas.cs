@@ -49,16 +49,26 @@ namespace ClassLibrary1
             set;
         }
 
-        public entidad_financiera entidad_financiera
+        public int idcliente_ef
         {
-            get;
-            set;
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }
 
-        public int ientidad_financiera
+        public cliente_ef cliente_ef
         {
-            get;
-            set;
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }
     }
 

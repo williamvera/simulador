@@ -104,12 +104,12 @@ namespace ClassLibrary1.Migrations
         {
             DropForeignKey("dbo.tasas", "entidad_financiera_identidad_financiera", "dbo.entidad_financiera");
             DropForeignKey("dbo.logins", "usuario_idtasas_cliente", "dbo.tasas_cliente");
-            DropForeignKey("dbo.logins", "idcliente", "dbo.clientes");
+            DropForeignKey("dbo.logins", "idcliente_ef", "dbo.clientes");
             DropForeignKey("dbo.entidad_financiera", "tasas_cliente_idtasas_cliente", "dbo.tasas_cliente");
             DropForeignKey("dbo.clientes", "idtasas_cliente", "dbo.tasas_cliente");
             DropIndex("dbo.tasas", new[] { "entidad_financiera_identidad_financiera" });
             DropIndex("dbo.logins", new[] { "usuario_idtasas_cliente" });
-            DropIndex("dbo.logins", new[] { "idcliente" });
+            DropIndex("dbo.logins", new[] { "idcliente_ef" });
             DropIndex("dbo.entidad_financiera", new[] { "tasas_cliente_idtasas_cliente" });
             DropIndex("dbo.clientes", new[] { "idtasas_cliente" });
             DropTable("dbo.tasas");

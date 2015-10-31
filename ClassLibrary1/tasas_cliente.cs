@@ -7,33 +7,34 @@ namespace ClassLibrary1
 {
     public class tasas_cliente
     {
-        /// <summary>
-        /// Esta Clase tasas_cliente nos sirve para indicar los campos del cliente con respecto las tasas, y los metodos que se utilizaran
-        /// </summary>
-        public int identidad_financiera
-        {
-            get;
-            set;
-        }
-
-        public int idcliente
-        {
-            get;
-            set;
-        }
 
         public int idtasas_cliente
         {
             get;set;
         }
 
-        public cliente cliente
+        public int monto_simular
         {
-            get;
-            set;
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }
 
         public void modificar()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void monto()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void simular()
         {
             throw new System.NotImplementedException();
         }

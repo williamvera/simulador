@@ -19,6 +19,17 @@ namespace ClassLibrary1
         public int idcliente { get; set;}
         
         public int cliente { get; set;}
+
+        public cliente cliente1
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
         /// <summary>
         /// metodos de la clase
         /// </summary>

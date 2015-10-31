@@ -11,10 +11,7 @@ namespace ClassLibrary1
         /// Esta Clase entidad financiera nos sirve para indicar los campos de la entidad financiera, y los metodos que se utilizaran
         /// </summary>
         public int descripcion
-        {   get; set;}
-
-        public int direccion
-        {   get; set;}
+        { get; set; }
 
         public int nombre_entidad
         {   get; set;}
@@ -40,7 +37,7 @@ namespace ClassLibrary1
             set;
         }
 
-        public int idtas_cliente
+        public int idtasas_cliente
         {
             get;
             set;
@@ -59,7 +56,7 @@ namespace ClassLibrary1
             throw new System.NotImplementedException();
         }
 
-        public void Modificar()
+        public void anular()
         {
             throw new System.NotImplementedException();
         }

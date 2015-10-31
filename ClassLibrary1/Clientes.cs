@@ -30,14 +30,6 @@ namespace ClassLibrary1
             get;
             set;
         }
-        /// <summary>
-        /// metodos de la clase
-        /// </summary>
-        public tasas_cliente tasas_cliente
-        {
-            get;
-            set;
-        }
 
         public int idcliente
         {
@@ -45,33 +37,39 @@ namespace ClassLibrary1
             set;
         }
 
-        public int idtasas_cliente
+        public tasas_cliente tasas_cliente
         {
-            get;
-            set;
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }
 
-        public void ver()
+        public int idtasas_clinete
         {
-            throw new System.NotImplementedException();
-        }
-
-        public void simular()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void monto()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void crear()
-        {
-            throw new System.NotImplementedException();
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }
 
         public void anular()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void modificar()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void visualizar()
         {
             throw new System.NotImplementedException();
         }
