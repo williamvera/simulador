@@ -17,7 +17,9 @@ namespace ClassLibrary1
         /// </summary>
         public int Nombre_Entidad
         {   get; set;}
-
+        /// <summary>
+        /// Campo que describe el tipo de la Entidad
+        /// </summary>
         public int Tipo_Entidad
         { get; set; }
 
