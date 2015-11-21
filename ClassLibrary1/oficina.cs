@@ -5,61 +5,60 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    public class oficina
+    public class Oficina
     {
-        public int idoficina
+        /// <summary>
+        /// Esta Clase Oficina sirve para ver el nombre de la oficina y la localizacion, y los metodos que se utilizaran
+        /// </summary>
+        public int Direccion_Oficina
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get; set;
         }
 
-        public int identidad_financiera
+        public int ID_Oficina
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get; set;
         }
 
-        public int nombre_oficna
+        public int Esta_Activa
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get; set;
         }
 
-        public int ubigeo
+        public int Localizacion
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get; set;
         }
 
-        public entidad_financiera entidad_financiera
+        public int Nombre_Oficina
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get; set;
+        }
+
+        public int ID_Entidad
+        {
+            get; set;
+        }
+
+        public int ID_Ubigeo
+        {
+            get; set;
+        }
+        public Ubigeo Ubigeo
+        {
+            get; set;
+        }
+        public Entidad_Financiera Entidad_Financiera
+        {
+            get; set;
+        }
+
+        /// <summary>
+        /// metodos de la clase
+        /// </summary>
+        public void visualizar()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

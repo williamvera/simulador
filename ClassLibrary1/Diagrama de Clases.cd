@@ -3,71 +3,57 @@
   <Comment CommentText="SIMULACION TASAS">
     <Position X="0.708" Y="0.635" Height="0.354" Width="1.45" />
   </Comment>
-  <Class Name="ClassLibrary1.login">
+  <Class Name="ClassLibrary1.Usuario">
     <Position X="1" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAQAAAAQAAAAAAAAAAAAAAIgAAAAABEAAgAAgAAAAA=</HashCode>
-      <FileName>login.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAEAAAgACAAI=</HashCode>
+      <FileName>Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary1.Entidad_Financiera">
+    <Position X="3.75" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAQAAgBAAAACAAAAAAAAABAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Entidad_Financiera.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="cliente1" />
+      <Property Name="Tipo_Entidad1" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="ClassLibrary1.cliente">
-    <Position X="3.25" Y="1.25" Width="1.5" />
+  <Class Name="ClassLibrary1.Tipo_Entidad">
+    <Position X="8.25" Y="1.25" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQIAAAgAAABAACAAADAAAAEAAAAAgAAABI=</HashCode>
-      <FileName>Clientes.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAARAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tipo_Entidad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary1.Oficina">
+    <Position X="4.5" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAAAgBAAAgAAABAAAAAACAAAAUAAAAAAAAQAA=</HashCode>
+      <FileName>Oficina.cs</FileName>
+      <NewMemberFileName>oficina.cs</NewMemberFileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="tasas_cliente" />
+      <Property Name="Ubigeo" />
+      <Property Name="Entidad_Financiera" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="ClassLibrary1.entidad_financiera">
-    <Position X="6" Y="4.25" Width="3" />
+  <Class Name="ClassLibrary1.Ubigeo">
+    <Position X="8.5" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAIAAAQAAAAAAAAAAEAAAAACABAEAAAAEAAAAAAAAI=</HashCode>
-      <FileName>EntidadesFinancieras.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="tasas_cliente1" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="ClassLibrary1.tasas">
-    <Position X="12.75" Y="1.25" Width="2.25" />
-    <TypeIdentifier>
-      <HashCode>AAAAAABEAAAAAAEBAAEAAAAIAWAAAAAAAAAAEAAAAAA=</HashCode>
-      <FileName>tasas.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="cliente_ef" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="ClassLibrary1.tasas_cliente">
-    <Position X="5.75" Y="1.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAACAAAAIAAAAAAkAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
-      <FileName>tasas_cliente.cs</FileName>
+      <HashCode>AEAAAAAAAAAAAAABCAABAAAAAAAAAAASAAAAAAAAAAA=</HashCode>
+      <FileName>Ubigeo.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ClassLibrary1.oficina">
-    <Position X="10.5" Y="4.25" Width="2.75" />
+  <Class Name="ClassLibrary1.Tasa">
+    <Position X="1.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QAAIAAAAAAACAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
-      <FileName>oficina.cs</FileName>
+      <HashCode>AAAAEAAAAAABACAACAAAAAgAAAAAAAAAwAAASAIAASA=</HashCode>
+      <FileName>Tasa.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="entidad_financiera" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="ClassLibrary1.cliente_ef">
-    <Position X="9.25" Y="1.25" Width="2.25" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQAAAAAAAAAAACAgAAAAAAAAgAAAEAAAAA=</HashCode>
-      <FileName>cliente_entidad_financiera.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="oficina" />
+      <Property Name="Oficina" />
     </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />

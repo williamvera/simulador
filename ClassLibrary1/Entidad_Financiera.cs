@@ -5,37 +5,32 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    public class entidad_financiera
+    public class Entidad_Financiera
     {
         /// <summary>
         /// Esta Clase entidad financiera nos sirve para indicar los campos de la entidad financiera, y los metodos que se utilizaran
         /// </summary>
-        public int descripcion
+        public int Esta_Activa
         { get; set; }
-
-        public int nombre_entidad
+        /// <summary>
+        /// Campo que describe el nombre de la Entidad
+        /// </summary>
+        public int Nombre_Entidad
         {   get; set;}
 
-        public int tipo_entidad
+        public int Tipo_Entidad
         { get; set; }
 
-        public int identidad_financiera
+        public int ID_Entidad
         {
-            get;
-            set;
+            get;set;
         }
 
-        public int idtasas_cliente
+        public Tipo_Entidad Tipo_Entidad1
         {
-            get;
-            set;
+            get; set;
         }
 
-        public tasas_cliente tasas_cliente1
-        {
-            get;
-            set;
-        }
         /// <summary>
         /// metodos de la clase
         /// </summary>

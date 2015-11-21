@@ -16,19 +16,22 @@ namespace ClassLibrary1
             : base("CNX")
         {
         }
-        public DbSet<cliente> cliente { get; set; }
-        public DbSet<login> login { get; set; }
-        public DbSet<tasas_cliente> tasas_cliente { get; set; }
-        public DbSet<entidad_financiera> entidad_financiera { get; set; }
-        public DbSet<tasas> tasas { get; set; }
+        public DbSet<Usuario> usuario { get; set; }
+        public DbSet<Tasa> tasa { get; set; }
+        public DbSet<Entidad_Financiera> Entidad_Financiera { get; set; }
+        public DbSet<Tipo_Entidad> Tipo_Entidad { get; set; }
+        public DbSet<Oficina> Oficina { get; set; }
+        public DbSet<Ubigeo> Ubigeo { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<cliente>().HasKey(k => k.idcliente);
-            modelBuilder.Entity<login>().HasKey(k => k.idlogin);
-            modelBuilder.Entity<tasas_cliente>().HasKey(k => k.idtasas_cliente);
-            modelBuilder.Entity<entidad_financiera>().HasKey(k => k.identidad_financiera);
-            modelBuilder.Entity<tasas>().HasKey(k => k.idtasas);
+            modelBuilder.Entity<Usuario>().HasKey(k => k.ID_Usuario);
+            modelBuilder.Entity<Entidad_Financiera>().HasKey(k => k.ID_Entidad);
+            modelBuilder.Entity<Tipo_Entidad>().HasKey(k => k.ID_Tipo);
+            modelBuilder.Entity<Tasa>().HasKey(k => k.ID_Tasa);
+            modelBuilder.Entity<Oficina>().HasKey(k => k.ID_Oficina);
+            modelBuilder.Entity<Ubigeo>().HasKey(k => k.ID_Ubigeo);
 
         }
     }
