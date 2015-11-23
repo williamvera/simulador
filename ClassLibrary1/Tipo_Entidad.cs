@@ -32,7 +32,7 @@ namespace ClassLibrary1
             throw new System.NotImplementedException();
         }
 
-        public void Modifica()
+        public void Modificar()
         {
             throw new System.NotImplementedException();
         }

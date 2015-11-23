@@ -99,7 +99,7 @@ namespace ClassLibrary1
             throw new System.NotImplementedException();
         }
 
-        public void Elimina()
+        public void Eliminar()
         {
             throw new System.NotImplementedException();
         }

@@ -16,13 +16,34 @@ namespace ClassLibrary1
             : base("CNX")
         {
         }
-        public DbSet<Usuario> usuario { get; set; }
-        public DbSet<Tasa> tasa { get; set; }
+        /// <summary>
+        /// Fijamos el Get y Set para Usuario
+        /// </summary>
+        public DbSet<Usuario> Usuario { get; set; }
+        /// <summary>
+        /// Fijamos el Get y Set para Tasa
+        /// </summary>
+        public DbSet<Tasa> Tasa { get; set; }
+        /// <summary>
+        /// Fijamos el Get Set para Entidad Financiera
+        /// </summary>
         public DbSet<Entidad_Financiera> Entidad_Financiera { get; set; }
+        /// <summary>
+        /// Fijamos el Get Set para Tipo de Entidad
+        /// </summary>
         public DbSet<Tipo_Entidad> Tipo_Entidad { get; set; }
+        /// <summary>
+        /// Fijamos el Get Set para la Oficina
+        /// </summary>
         public DbSet<Oficina> Oficina { get; set; }
+        /// <summary>
+        /// Fijamos el Get Set para Ubigeo
+        /// </summary>
         public DbSet<Ubigeo> Ubigeo { get; set; }
-
+        /// <summary>
+        /// Establecemos las claves primarias de cada una delas entidades
+        /// </summary>
+        /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

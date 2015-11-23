@@ -30,7 +30,6 @@ namespace ClassLibrary1
         {
             get;set;
         }
-
         /// <summary>
         /// Campo que describe el tipo de entidad
         /// </summary>
@@ -42,17 +41,21 @@ namespace ClassLibrary1
         /// <summary>
         /// metodos de la clase
         /// </summary>
-        public void Visualiza()
+        public void Visualizar()
         {
             throw new System.NotImplementedException();
         }
-
+        /// <summary>
+        /// Metodo anular Entidad Financiera
+        /// </summary>
         public void anular()
         {
             throw new System.NotImplementedException();
         }
-
-        public void Modifica()
+        /// <summary>
+        /// Metodo modificar Entidad Financiera
+        /// </summary>
+        public void Modificar()
         {
             throw new System.NotImplementedException();
         }
