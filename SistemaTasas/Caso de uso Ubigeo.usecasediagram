@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="fb75c224-9426-407b-8234-2c16d55e4d40" name="Caso de uso Ubigeo" linkedPackageId="28c6c2c5-e84e-40a8-8a74-5a85b07684ba" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="d8cd7749-ee6d-4e97-954b-c798afadd923">
+      <profileInstance Id="d90e8576-2d54-440a-bf7c-0900cff1761e" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="da566deb-4fac-4fa2-b0b0-2ad8016e467b">
+      <profileInstance Id="d2e6dfb0-31e3-482e-9fd2-7414f1cb78f9" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="69332eb3-a860-4c07-9c18-a40657611f49" name="Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4ea85c3b-db53-45e4-887a-b7831157b8fa" />
+        <targetEnds>
+          <association Id="cc3d276a-8228-475d-9752-3005543ecb12" isDerived="false" sourceEndRoleName="Usuario" targetEndRoleName="CU02_Ubigeo" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b1b253e4-f421-4c1e-b8df-9b3a153669f2" LastKnownName="CU02_Ubigeo" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f420217c-abfa-4e59-a765-878bf3743b15" name="Usuario" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8927bebc-494d-4c4f-8038-8e13befd476b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9bc1440f-4833-4600-964e-afb16fad9b5e" name="CU02_Ubigeo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7c967a99-b154-452e-b865-4e2550d88ccb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9294d16a-3864-4ac4-9269-480cd84b257e" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b1b253e4-f421-4c1e-b8df-9b3a153669f2" name="CU02_Ubigeo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ef6ed8af-aef7-4cca-b710-ae8612de4fc5" />
+        <targetEnds>
+          <association Id="6107ee14-f988-4502-ba20-285ed8b1c308" isDerived="false" sourceEndRoleName="CU02_Ubigeo" targetEndRoleName="Visualiza" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="94bcc9d4-41dd-4bfa-b71a-efea4801f37d" LastKnownName="Visualiza" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="66dcbaf5-475b-4abf-b1b2-829e67639c9b" name="CU02_Ubigeo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f081fe4b-f712-41cd-a42f-c66ded2ce174" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fe3b73e4-f545-466b-be62-112757f9005f" name="Visualiza" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="91ba36aa-f7e0-485f-8a8a-4538e8b780f9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="de1f31da-5153-485e-be5b-bf86c4f3d1b7" />
+          </association>
+          <association Id="54e6ac36-b629-4d4f-b11c-8a010e6a5d0e" isDerived="false" sourceEndRoleName="CU02_Ubigeo" targetEndRoleName="Verifica" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c933d804-5da8-4125-abff-2990fe771307" LastKnownName="Verifica" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0f28d676-6ba2-4030-a01a-bb0f4bfa8091" name="CU02_Ubigeo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="35deb1df-32b5-4421-8145-2a0fae06df8c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d0f8f8ed-a972-4f75-9781-34d96cff96fa" name="Verifica" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="aff9dd3a-8922-4625-85ab-4be53343fb89" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d608ef2a-ff02-475c-86ac-87808bd5a90e" />
+          </association>
+          <association Id="4d5cf766-21e9-4725-9a11-450ce367aab8" isDerived="false" sourceEndRoleName="CU02_Ubigeo" targetEndRoleName="Modifica" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d7771671-ae2b-4627-bb8f-6fe0cf47fd18" LastKnownName="Modifica" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ddc9685f-a163-4393-aa99-50b59f4de7a4" name="CU02_Ubigeo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1f7543b1-fc88-4e65-a5e3-0c0843bb789a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ba96fa03-519c-4f64-9e6c-95c7d24a4ded" name="Modifica" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a9da02c0-80f5-4157-98ed-e6745e5f350c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e3de2c12-64bf-4a39-b950-f54b065a629f" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="94bcc9d4-41dd-4bfa-b71a-efea4801f37d" name="Visualiza" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0103ea56-996c-4906-bd72-a77c3dfb7d63" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c933d804-5da8-4125-abff-2990fe771307" name="Verifica" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2996396e-8905-469f-aadc-8ab7c2e52d4c" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d7771671-ae2b-4627-bb8f-6fe0cf47fd18" name="Modifica" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1eb4c095-3af1-421e-a5ec-084d21d21e65" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="28c6c2c5-e84e-40a8-8a74-5a85b07684ba" name="SistemaTasas">
+    <elementDefinition Id="a6b72f3a-7fc4-468f-ac5f-c99758753e0c" />
+  </package>
+</useCaseModelRoot>

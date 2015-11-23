@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="70a5cf70-4b62-401d-97c9-33880f33c26b" name="Caso de uso Oficina" linkedPackageId="a72cabc0-0843-488c-87d7-de7d37fd7d3f" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="a2746cde-909a-4ef2-99a5-699d63f54fae">
+      <profileInstance Id="afb40387-b49a-4e09-a207-13e011017e3e" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="edb71d2f-94ac-44a0-803a-0f5766a53f46">
+      <profileInstance Id="12a268be-ef54-4711-8cc6-f8c83ae9e609" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="5c179e5b-03d3-43bd-96a1-f210eafcab32" name="Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="24257e84-d3ae-49b5-a9f2-a29c4590af1f" />
+        <targetEnds>
+          <association Id="98bc92ec-8341-4b18-847c-88dde50b0930" isDerived="false" sourceEndRoleName="Usuario" targetEndRoleName="CU03_Oficina" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a3829eda-148c-4b87-a1b2-bd949fd524e8" LastKnownName="CU03_Oficina" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="38e9773c-fc06-4038-9b60-edced92b5995" name="Usuario" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="79ba5e78-9884-4280-a415-6c302b8f186e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9b09e1c5-dce5-4f9a-99c4-da1f19530b38" name="CU03_Oficina" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f3eebfff-8081-4c81-9928-5e316bfb851e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2f5715af-9b84-4c8e-bed7-6bef0a86e76f" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a3829eda-148c-4b87-a1b2-bd949fd524e8" name="CU03_Oficina" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="49ea0beb-59b5-46f2-a2e4-032137f99d25" />
+        <targetEnds>
+          <association Id="225b22ce-9ecd-466c-b534-23442447eb22" isDerived="false" sourceEndRoleName="CU03_Oficina" targetEndRoleName="Agrega" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3748191c-3e44-4a3f-8616-439df23aead6" LastKnownName="Agrega" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4ed2cdc3-8b7e-4762-8047-9a88baa31448" name="CU03_Oficina" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8e90f7ce-3a08-44d4-a82a-57251eecb64b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a6fe87a1-b9b4-49b5-a124-731265f9fd8a" name="Agrega" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d7760b8c-8ede-4874-bcf2-1a660a08bc77" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="edce3b07-4463-4c1b-8402-bb1c5989fc4b" />
+          </association>
+          <association Id="4c29ef6a-5dd0-46a7-869d-3ea4b7e5992d" isDerived="false" sourceEndRoleName="CU03_Oficina" targetEndRoleName="Elimina" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c7a00e1c-b3b1-4987-8b9b-2e33f9c904df" LastKnownName="Elimina" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f152e007-2d77-47fe-83e2-3534e595dd98" name="CU03_Oficina" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1f8bb300-6e6c-4849-9f45-d915552c9074" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7730ce97-c74b-4f07-803f-c70fdf2ca434" name="Elimina" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="42598855-5e84-46df-9caa-910710c55c3d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8d057125-ecb4-4217-b14a-0e14b5d0046f" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3748191c-3e44-4a3f-8616-439df23aead6" name="Agrega" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6e4b0aa5-927a-4b79-b599-37673ca2fa7d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c7a00e1c-b3b1-4987-8b9b-2e33f9c904df" name="Elimina" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6c8585f3-1516-4286-b49b-7bdb561697e4" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="a72cabc0-0843-488c-87d7-de7d37fd7d3f" name="SistemaTasas">
+    <elementDefinition Id="a6b72f3a-7fc4-468f-ac5f-c99758753e0c" />
+  </package>
+</useCaseModelRoot>

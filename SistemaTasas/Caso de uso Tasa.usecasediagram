@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="0b8ed068-6a33-4161-bf4d-e2f918bace1e" name="Caso de uso Tasa" linkedPackageId="beab4b0c-79f2-45d6-af2d-888484a9de83" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="5ee3f717-7a56-4ee4-8b9c-6415000085ad">
+      <profileInstance Id="399bb21d-c3d8-4989-8857-0262250f3b79" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ef8246f5-7fa3-4a96-b37b-34b4ed71a2de">
+      <profileInstance Id="36cc2a16-9c81-4d47-b6b8-f2793b21e9e7" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="b9c9ef2d-6b0f-44a5-b958-abc8db060a43" name="Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4bdf05a4-c8c0-454d-8b28-b06d49c5878c" />
+        <targetEnds>
+          <association Id="1be90b89-2f9e-49f1-81dc-15cb17c25b3e" isDerived="false" sourceEndRoleName="Usuario" targetEndRoleName="CU06_Tasa" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ac2e072c-42b9-4f1b-86f5-0b584bd65764" LastKnownName="CU06_Tasa" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="50b59449-6f44-4666-b14a-6a3b76c1333b" name="Usuario" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="33f4c52e-0b92-469c-bde8-e3d14e891dd0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1d4281eb-00dd-421d-bd69-d84fc757b94c" name="CU06_Tasa" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="82118e7a-4ae2-4a64-8ef8-d1a15f44d274" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8bcf877f-243a-4230-8896-d5c501fe5d1e" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ac2e072c-42b9-4f1b-86f5-0b584bd65764" name="CU06_Tasa" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ac1b12fd-94a8-42b5-a58d-f8845aa713d8" />
+        <targetEnds>
+          <association Id="713108dc-a089-48fb-8091-abe277c3b12c" isDerived="false" sourceEndRoleName="CU06_Tasa" targetEndRoleName="Modifica" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="56163283-502c-435a-aaf0-bc32ad57439f" LastKnownName="Modifica" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a9ca5398-35a2-4cf0-9aac-a89732b83ec5" name="CU06_Tasa" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="133131fd-d88f-4dd5-b9e9-3185864e7fde" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="acbe33e8-5e91-43cb-894d-6ce8aeafbb5f" name="Modifica" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d6313d4c-ecb2-4c38-b980-5b3201ba473b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c922508b-4a6d-43c1-bb15-299a038bff92" />
+          </association>
+          <association Id="b690ba39-f1da-4b9f-9fb4-c8a65c1bf92c" isDerived="false" sourceEndRoleName="CU06_Tasa" targetEndRoleName="Visualiza" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="404b36e2-faaa-42ba-983e-2336eda07905" LastKnownName="Visualiza" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f3c626cf-c0f0-4bec-9508-103690cbaabd" name="CU06_Tasa" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2e1e20c6-b279-4843-946c-2c9280ff10c5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d25c8b28-1379-4d84-bb2c-dec02f7c45ad" name="Visualiza" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f2030a7e-275e-4828-84fb-521ba3d0fdad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e0e49e16-b142-43a3-bf05-0da971fe8fe0" />
+          </association>
+          <association Id="d87756a2-1113-450a-a5a2-3ce88fbc09f4" isDerived="false" sourceEndRoleName="CU06_Tasa" targetEndRoleName="Elimina" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6283b44e-cd79-4464-814a-4291eb750f6c" LastKnownName="Elimina" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3f65a562-f5d1-4c37-a60c-973af8027b89" name="CU06_Tasa" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="854976c3-bb8d-4f7e-a469-e8cafe3b12da" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e5fd8b91-8962-488b-bd9d-8c799be3af62" name="Elimina" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4a7ed896-ff0d-44d1-b8fd-6295d465b454" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5deac701-28aa-40c5-a277-d361eca57282" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="56163283-502c-435a-aaf0-bc32ad57439f" name="Modifica" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5d109a55-4e3e-4e7f-a45b-33de2eec3be8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="404b36e2-faaa-42ba-983e-2336eda07905" name="Visualiza" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2f67e26f-f221-4728-9606-44048776aa07" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6283b44e-cd79-4464-814a-4291eb750f6c" name="Elimina" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="be7fb299-f5e1-43c5-a0ff-6a1ec77d34b8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="beab4b0c-79f2-45d6-af2d-888484a9de83" name="SistemaTasas">
+    <elementDefinition Id="a6b72f3a-7fc4-468f-ac5f-c99758753e0c" />
+  </package>
+</useCaseModelRoot>

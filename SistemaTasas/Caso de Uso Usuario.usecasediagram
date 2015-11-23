@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="5456da0c-07eb-477f-a483-188c2237fef7" name="Caso de Uso Usuario" linkedPackageId="86cc59d3-8061-4484-97b2-72be10e866b3" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="9a67f223-215b-41b3-9eec-37c17aeb2407">
+      <profileInstance Id="15697fd0-171e-43ca-858a-7a1dc0950f52" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e6fbd3e1-58ac-44f1-9c04-5b0617f0cc17">
+      <profileInstance Id="20278291-6a58-4b04-bed3-1450b014bc8a" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="da173604-1f57-4b7c-8ea0-f7c35bca2247" name="Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d54585c5-8952-4f3d-b3ab-fc214ab648e4" />
+        <targetEnds>
+          <association Id="d447ca66-8142-4302-a13c-a571be964766" isDerived="false" sourceEndRoleName="Usuario" targetEndRoleName="Login" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="864ba8df-40cc-40f2-ba5c-f87af84d55af" LastKnownName="Login" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fa4272b9-bf4a-4b25-b869-96c05bac449f" name="Usuario" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ea1e4faa-f7e4-4481-816c-f8cff4b0b2d8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="425cb682-363e-4198-93b8-ea5ff8550e5d" name="Login" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2f7b9ed2-501c-4803-b7a0-aca030645ce6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="48b65bf3-14d4-43a5-96fb-24740c3483b5" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="864ba8df-40cc-40f2-ba5c-f87af84d55af" name="Login" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="667a0a87-2d83-4a37-86c1-603deada5ad8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="86cc59d3-8061-4484-97b2-72be10e866b3" name="SistemaTasas">
+    <elementDefinition Id="a6b72f3a-7fc4-468f-ac5f-c99758753e0c" />
+  </package>
+</useCaseModelRoot>

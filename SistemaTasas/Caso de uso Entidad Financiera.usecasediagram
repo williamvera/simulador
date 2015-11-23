@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="560c105d-8adc-46b1-8cc4-d6fdef89e888" name="Caso de uso Entidad Financiera" linkedPackageId="2622a19b-7a51-4415-831b-ba81d050f5a6" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="0fad717f-f8a6-4b18-8d46-1e1480994808">
+      <profileInstance Id="22853ea4-50c2-4f55-81f1-2e5f55822f80" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d7563a0a-dbc9-4508-9883-67bb1f985dc6">
+      <profileInstance Id="85d7b634-7de3-467d-87f0-954d6a1c7321" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="db605221-9f87-476c-9fa1-d444d1f10e1d" name="Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b4901cbb-6572-42fa-826e-3eff43fef671" />
+        <targetEnds>
+          <association Id="ca85753e-3c1b-45c5-9649-cc812b5b3eb9" isDerived="false" sourceEndRoleName="Usuario" targetEndRoleName="CU04_Entidad Financiera" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b629a3c5-6f2f-49cf-b244-33aec80c89d3" LastKnownName="CU04_Entidad Financiera" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d0c61d3d-1c44-4b55-a5e8-85c6d6cdc4fa" name="Usuario" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="eb0f31e0-2cb7-4a6c-bbd3-99420d5f0e5d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bb86d2e4-28da-4cc7-98f6-1021e66ed3a2" name="CU04_Entidad Financiera" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="12c9a6d9-7b22-4111-9dcf-71c514564358" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6226a086-01ad-4b88-a25d-6192a65b5d4a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b629a3c5-6f2f-49cf-b244-33aec80c89d3" name="CU04_Entidad Financiera" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c7d7f470-c937-4331-849a-b6fb4ff9557b" />
+        <targetEnds>
+          <association Id="29af69f2-5035-4059-8b8a-28f4b490bc41" isDerived="false" sourceEndRoleName="CU04_Entidad Financiera" targetEndRoleName="Visualiza" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ce8737f3-7a61-402c-aca8-a02790c139a8" LastKnownName="Visualiza" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="04f1dd5a-f3c4-42f4-99e5-f80b22ff8a6d" name="CU04_Entidad Financiera" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0f960643-91ed-4c1a-acac-9451809066ed" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d798f2a0-ca57-4da1-a7ec-07d2bc9f7e93" name="Visualiza" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="800a5389-776d-4b9e-9ea1-f70a064d8919" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="aa19f4ed-f13a-4af5-9be2-b295a8444312" />
+          </association>
+          <association Id="d4516745-ba61-4198-8d2b-93babef66040" isDerived="false" sourceEndRoleName="CU04_Entidad Financiera" targetEndRoleName="Modifica" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3fa28157-615c-46dc-b766-428552f352f1" LastKnownName="Modifica" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c44db11b-e9e8-496a-8e8a-882663e9aea1" name="CU04_Entidad Financiera" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3c4c1ee4-f940-464f-9655-2c5700fddb61" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2f44f013-a51b-4dec-a329-eb5affc26fad" name="Modifica" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="06105257-cce2-4dc1-b3ae-53319e05382b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="06b70bd3-d662-4100-ab62-4cd07c2dc89f" />
+          </association>
+          <association Id="b2036f1e-abd0-4af7-ae9b-22c5384a9754" isDerived="false" sourceEndRoleName="CU04_Entidad Financiera" targetEndRoleName="Anular" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fb9c6487-3abb-43b8-af97-eba890a10890" LastKnownName="Anular" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f73636af-19b4-43f0-9363-4294043f221f" name="CU04_Entidad Financiera" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fbbb8296-ae90-413e-b24d-ce12817ccf4a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0475efe1-6887-452d-bb3b-a5dd907f5286" name="Anular" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e2cc3c81-7e85-4e03-bed6-35172f16b481" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0c95df6b-2de3-4ccb-8029-645cbcad5298" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ce8737f3-7a61-402c-aca8-a02790c139a8" name="Visualiza" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="619195bf-e025-4dea-b932-613aa0969387" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3fa28157-615c-46dc-b766-428552f352f1" name="Modifica" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="162a24e6-113c-4c13-a8b3-c9fc9e6ca8fe" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fb9c6487-3abb-43b8-af97-eba890a10890" name="Anular" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a7f124f7-b34c-4818-a5ca-42749a28c407" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="2622a19b-7a51-4415-831b-ba81d050f5a6" name="SistemaTasas">
+    <elementDefinition Id="a6b72f3a-7fc4-468f-ac5f-c99758753e0c" />
+  </package>
+</useCaseModelRoot>

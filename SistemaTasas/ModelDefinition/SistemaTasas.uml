@@ -379,6 +379,962 @@
         </subjects>
       </useCase>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="d54585c5-8952-4f3d-b3ab-fc214ab648e4"
+        name="Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="48b65bf3-14d4-43a5-96fb-24740c3483b5"
+            isDerived="false"
+            sourceEndRoleName="Usuario"
+            targetEndRoleName="Login"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="667a0a87-2d83-4a37-86c1-603deada5ad8"
+              LastKnownName="Login"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ea1e4faa-f7e4-4481-816c-f8cff4b0b2d8"
+                  name="Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2f7b9ed2-501c-4803-b7a0-aca030645ce6"
+                  name="Login"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="667a0a87-2d83-4a37-86c1-603deada5ad8"
+        name="Login"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5de5d543-5954-4638-a954-dcb57a372980"
+        name="CU01_Usuario"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="4ea85c3b-db53-45e4-887a-b7831157b8fa"
+        name="Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="9294d16a-3864-4ac4-9269-480cd84b257e"
+            isDerived="false"
+            sourceEndRoleName="Usuario"
+            targetEndRoleName="CU02_Ubigeo"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ef6ed8af-aef7-4cca-b710-ae8612de4fc5"
+              LastKnownName="CU02_Ubigeo"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8927bebc-494d-4c4f-8038-8e13befd476b"
+                  name="Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7c967a99-b154-452e-b865-4e2550d88ccb"
+                  name="CU02_Ubigeo"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ef6ed8af-aef7-4cca-b710-ae8612de4fc5"
+        name="CU02_Ubigeo"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="de1f31da-5153-485e-be5b-bf86c4f3d1b7"
+            isDerived="false"
+            sourceEndRoleName="CU02_Ubigeo"
+            targetEndRoleName="Visualiza"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0103ea56-996c-4906-bd72-a77c3dfb7d63"
+              LastKnownName="Visualiza"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f081fe4b-f712-41cd-a42f-c66ded2ce174"
+                  name="CU02_Ubigeo"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="91ba36aa-f7e0-485f-8a8a-4538e8b780f9"
+                  name="Visualiza"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d608ef2a-ff02-475c-86ac-87808bd5a90e"
+            isDerived="false"
+            sourceEndRoleName="CU02_Ubigeo"
+            targetEndRoleName="Verifica"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2996396e-8905-469f-aadc-8ab7c2e52d4c"
+              LastKnownName="Verifica"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="35deb1df-32b5-4421-8145-2a0fae06df8c"
+                  name="CU02_Ubigeo"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="aff9dd3a-8922-4625-85ab-4be53343fb89"
+                  name="Verifica"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e3de2c12-64bf-4a39-b950-f54b065a629f"
+            isDerived="false"
+            sourceEndRoleName="CU02_Ubigeo"
+            targetEndRoleName="Modifica"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1eb4c095-3af1-421e-a5ec-084d21d21e65"
+              LastKnownName="Modifica"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1f7543b1-fc88-4e65-a5e3-0c0843bb789a"
+                  name="CU02_Ubigeo"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a9da02c0-80f5-4157-98ed-e6745e5f350c"
+                  name="Modifica"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0103ea56-996c-4906-bd72-a77c3dfb7d63"
+        name="Visualiza"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2996396e-8905-469f-aadc-8ab7c2e52d4c"
+        name="Verifica"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1eb4c095-3af1-421e-a5ec-084d21d21e65"
+        name="Modifica"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="24257e84-d3ae-49b5-a9f2-a29c4590af1f"
+        name="Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="2f5715af-9b84-4c8e-bed7-6bef0a86e76f"
+            isDerived="false"
+            sourceEndRoleName="Usuario"
+            targetEndRoleName="CU03_Oficina"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="49ea0beb-59b5-46f2-a2e4-032137f99d25"
+              LastKnownName="CU03_Oficina"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="79ba5e78-9884-4280-a415-6c302b8f186e"
+                  name="Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f3eebfff-8081-4c81-9928-5e316bfb851e"
+                  name="CU03_Oficina"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="49ea0beb-59b5-46f2-a2e4-032137f99d25"
+        name="CU03_Oficina"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="edce3b07-4463-4c1b-8402-bb1c5989fc4b"
+            isDerived="false"
+            sourceEndRoleName="CU03_Oficina"
+            targetEndRoleName="Agrega"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6e4b0aa5-927a-4b79-b599-37673ca2fa7d"
+              LastKnownName="Agrega"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8e90f7ce-3a08-44d4-a82a-57251eecb64b"
+                  name="CU03_Oficina"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d7760b8c-8ede-4874-bcf2-1a660a08bc77"
+                  name="Agrega"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8d057125-ecb4-4217-b14a-0e14b5d0046f"
+            isDerived="false"
+            sourceEndRoleName="CU03_Oficina"
+            targetEndRoleName="Elimina"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6c8585f3-1516-4286-b49b-7bdb561697e4"
+              LastKnownName="Elimina"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1f8bb300-6e6c-4849-9f45-d915552c9074"
+                  name="CU03_Oficina"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="42598855-5e84-46df-9caa-910710c55c3d"
+                  name="Elimina"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6e4b0aa5-927a-4b79-b599-37673ca2fa7d"
+        name="Agrega"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6c8585f3-1516-4286-b49b-7bdb561697e4"
+        name="Elimina"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="b4901cbb-6572-42fa-826e-3eff43fef671"
+        name="Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="6226a086-01ad-4b88-a25d-6192a65b5d4a"
+            isDerived="false"
+            sourceEndRoleName="Usuario"
+            targetEndRoleName="CU04_Entidad Financiera"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c7d7f470-c937-4331-849a-b6fb4ff9557b"
+              LastKnownName="CU04_Entidad Financiera"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eb0f31e0-2cb7-4a6c-bbd3-99420d5f0e5d"
+                  name="Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="12c9a6d9-7b22-4111-9dcf-71c514564358"
+                  name="CU04_Entidad Financiera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c7d7f470-c937-4331-849a-b6fb4ff9557b"
+        name="CU04_Entidad Financiera"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="aa19f4ed-f13a-4af5-9be2-b295a8444312"
+            isDerived="false"
+            sourceEndRoleName="CU04_Entidad Financiera"
+            targetEndRoleName="Visualiza"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="619195bf-e025-4dea-b932-613aa0969387"
+              LastKnownName="Visualiza"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0f960643-91ed-4c1a-acac-9451809066ed"
+                  name="CU04_Entidad Financiera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="800a5389-776d-4b9e-9ea1-f70a064d8919"
+                  name="Visualiza"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="06b70bd3-d662-4100-ab62-4cd07c2dc89f"
+            isDerived="false"
+            sourceEndRoleName="CU04_Entidad Financiera"
+            targetEndRoleName="Modifica"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="162a24e6-113c-4c13-a8b3-c9fc9e6ca8fe"
+              LastKnownName="Modifica"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3c4c1ee4-f940-464f-9655-2c5700fddb61"
+                  name="CU04_Entidad Financiera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="06105257-cce2-4dc1-b3ae-53319e05382b"
+                  name="Modifica"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0c95df6b-2de3-4ccb-8029-645cbcad5298"
+            isDerived="false"
+            sourceEndRoleName="CU04_Entidad Financiera"
+            targetEndRoleName="Anular"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a7f124f7-b34c-4818-a5ca-42749a28c407"
+              LastKnownName="Anular"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fbbb8296-ae90-413e-b24d-ce12817ccf4a"
+                  name="CU04_Entidad Financiera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e2cc3c81-7e85-4e03-bed6-35172f16b481"
+                  name="Anular"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="619195bf-e025-4dea-b932-613aa0969387"
+        name="Visualiza"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="162a24e6-113c-4c13-a8b3-c9fc9e6ca8fe"
+        name="Modifica"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a7f124f7-b34c-4818-a5ca-42749a28c407"
+        name="Anular"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="ace44622-38ed-481f-8ea4-a14ceac5b6e2"
+        name="Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8cd036a6-7e49-45e5-882b-f40dc358e2ff"
+            isDerived="false"
+            sourceEndRoleName="Usuario"
+            targetEndRoleName="CU05_Tipo Entidad"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ecfd83b6-dc75-482f-9963-deaf11a469f8"
+              LastKnownName="CU05_Tipo Entidad"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="580433f4-2485-4d9d-994d-ac567ff62f9a"
+                  name="Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bdafa529-7ddc-4188-9b4d-69cb867d3e87"
+                  name="CU05_Tipo Entidad"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ecfd83b6-dc75-482f-9963-deaf11a469f8"
+        name="CU05_Tipo Entidad"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="1f186080-5026-41c9-b8e0-2ec215f92a7e"
+            isDerived="false"
+            sourceEndRoleName="CU05_Tipo Entidad"
+            targetEndRoleName="Vsualiza"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b0684e1b-bc3d-47bb-8867-ad6381fabeb0"
+              LastKnownName="Vsualiza"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bbdc90e0-c263-49dd-ba48-002845c0b855"
+                  name="CU05_Tipo Entidad"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d7eafe88-8dc8-495f-b09b-efeae993b0ee"
+                  name="Vsualiza"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="dcec548c-34e0-40c2-84a1-4008ce539a2b"
+            isDerived="false"
+            sourceEndRoleName="CU05_Tipo Entidad"
+            targetEndRoleName="Modifica"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="49936f1e-3c53-4896-b886-c2281a70adc2"
+              LastKnownName="Modifica"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="708a754a-cdf1-41ef-a2c9-a44135e5c796"
+                  name="CU05_Tipo Entidad"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="472e3c72-1430-4ff8-89eb-f1a308554383"
+                  name="Modifica"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b0684e1b-bc3d-47bb-8867-ad6381fabeb0"
+        name="Vsualiza"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="49936f1e-3c53-4896-b886-c2281a70adc2"
+        name="Modifica"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="4bdf05a4-c8c0-454d-8b28-b06d49c5878c"
+        name="Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8bcf877f-243a-4230-8896-d5c501fe5d1e"
+            isDerived="false"
+            sourceEndRoleName="Usuario"
+            targetEndRoleName="CU06_Tasa"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ac1b12fd-94a8-42b5-a58d-f8845aa713d8"
+              LastKnownName="CU06_Tasa"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="33f4c52e-0b92-469c-bde8-e3d14e891dd0"
+                  name="Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="82118e7a-4ae2-4a64-8ef8-d1a15f44d274"
+                  name="CU06_Tasa"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ac1b12fd-94a8-42b5-a58d-f8845aa713d8"
+        name="CU06_Tasa"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="c922508b-4a6d-43c1-bb15-299a038bff92"
+            isDerived="false"
+            sourceEndRoleName="CU06_Tasa"
+            targetEndRoleName="Modifica"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5d109a55-4e3e-4e7f-a45b-33de2eec3be8"
+              LastKnownName="Modifica"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="133131fd-d88f-4dd5-b9e9-3185864e7fde"
+                  name="CU06_Tasa"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d6313d4c-ecb2-4c38-b980-5b3201ba473b"
+                  name="Modifica"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e0e49e16-b142-43a3-bf05-0da971fe8fe0"
+            isDerived="false"
+            sourceEndRoleName="CU06_Tasa"
+            targetEndRoleName="Visualiza"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2f67e26f-f221-4728-9606-44048776aa07"
+              LastKnownName="Visualiza"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2e1e20c6-b279-4843-946c-2c9280ff10c5"
+                  name="CU06_Tasa"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f2030a7e-275e-4828-84fb-521ba3d0fdad"
+                  name="Visualiza"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5deac701-28aa-40c5-a277-d361eca57282"
+            isDerived="false"
+            sourceEndRoleName="CU06_Tasa"
+            targetEndRoleName="Elimina"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="be7fb299-f5e1-43c5-a0ff-6a1ec77d34b8"
+              LastKnownName="Elimina"
+              LastKnownLocation="SistemaTasas.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="854976c3-bb8d-4f7e-a469-e8cafe3b12da"
+                  name="CU06_Tasa"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4a7ed896-ff0d-44d1-b8fd-6295d465b454"
+                  name="Elimina"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5d109a55-4e3e-4e7f-a45b-33de2eec3be8"
+        name="Modifica"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2f67e26f-f221-4728-9606-44048776aa07"
+        name="Visualiza"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="be7fb299-f5e1-43c5-a0ff-6a1ec77d34b8"
+        name="Elimina"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

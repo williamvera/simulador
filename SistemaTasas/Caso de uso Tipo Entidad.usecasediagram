@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="9610734c-47e0-4884-886b-c0aa69814a65" name="Caso de uso Tipo Entidad" linkedPackageId="4411e596-5e7d-43e0-970b-7d181c1bb207" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="c2877e45-9154-43be-9d31-da9ba125ec9f">
+      <profileInstance Id="f71d9b70-4c34-4f5e-b759-b30abe4377b5" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a8d67637-4d99-4b9a-8208-98a62bdded70">
+      <profileInstance Id="791093d7-e1e6-43d9-a23b-6e450b33e621" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="a16794cc-872d-4fb5-9403-ab5289f38bf6" name="Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ace44622-38ed-481f-8ea4-a14ceac5b6e2" />
+        <targetEnds>
+          <association Id="7980e834-f614-49e8-bc09-ae1a80dfcc51" isDerived="false" sourceEndRoleName="Usuario" targetEndRoleName="CU05_Tipo Entidad" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="96a397e2-acf2-4cf0-b4f6-8d51546ddb1d" LastKnownName="CU05_Tipo Entidad" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="90746654-521c-40f4-93bc-de0ef0474d70" name="Usuario" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="580433f4-2485-4d9d-994d-ac567ff62f9a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="208fdb8b-54d5-4bc1-971a-d16e9ffba23a" name="CU05_Tipo Entidad" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bdafa529-7ddc-4188-9b4d-69cb867d3e87" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8cd036a6-7e49-45e5-882b-f40dc358e2ff" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="96a397e2-acf2-4cf0-b4f6-8d51546ddb1d" name="CU05_Tipo Entidad" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ecfd83b6-dc75-482f-9963-deaf11a469f8" />
+        <targetEnds>
+          <association Id="41513dda-bd36-45f7-b73f-8c175ce1c1b3" isDerived="false" sourceEndRoleName="CU05_Tipo Entidad" targetEndRoleName="Vsualiza" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="58732506-3cd8-48c4-a571-730d4c51ea4c" LastKnownName="Vsualiza" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d1518a2a-81e3-4ad5-be0d-86abb2a46a92" name="CU05_Tipo Entidad" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bbdc90e0-c263-49dd-ba48-002845c0b855" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6f94d8d1-a011-4517-b043-003745b6303c" name="Vsualiza" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d7eafe88-8dc8-495f-b09b-efeae993b0ee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1f186080-5026-41c9-b8e0-2ec215f92a7e" />
+          </association>
+          <association Id="696ecacb-d3e4-48d6-9c20-4828c1102844" isDerived="false" sourceEndRoleName="CU05_Tipo Entidad" targetEndRoleName="Modifica" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="546ae410-ef79-49e2-905d-0815120c6d23" LastKnownName="Modifica" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="04fbaa86-c939-459b-aa93-e9ecd822052e" name="CU05_Tipo Entidad" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="708a754a-cdf1-41ef-a2c9-a44135e5c796" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="11641a0d-ae50-471d-b5fa-4c409050b23f" name="Modifica" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="472e3c72-1430-4ff8-89eb-f1a308554383" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dcec548c-34e0-40c2-84a1-4008ce539a2b" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="58732506-3cd8-48c4-a571-730d4c51ea4c" name="Vsualiza" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b0684e1b-bc3d-47bb-8867-ad6381fabeb0" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="546ae410-ef79-49e2-905d-0815120c6d23" name="Modifica" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="49936f1e-3c53-4896-b886-c2281a70adc2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="4411e596-5e7d-43e0-970b-7d181c1bb207" name="SistemaTasas">
+    <elementDefinition Id="a6b72f3a-7fc4-468f-ac5f-c99758753e0c" />
+  </package>
+</useCaseModelRoot>

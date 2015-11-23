@@ -22,20 +22,48 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
-    <Content Include="UMLUseCaseDiagram1.usecasediagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="UMLUseCaseDiagram1.usecasediagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>UMLUseCaseDiagram1.usecasediagram</DependentUpon>
-    </Content>
     <Folder Include="ModelDefinition\" />
-    <Content Include="Casos de Uso_SISTEMA_TASAS.usecasediagram">
+    <Content Include="Caso de uso Entidad Financiera.usecasediagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Casos de Uso_SISTEMA_TASAS.usecasediagram.layout">
+    <Content Include="Caso de uso Entidad Financiera.usecasediagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>Casos de Uso_SISTEMA_TASAS.usecasediagram</DependentUpon>
+      <DependentUpon>Caso de uso Entidad Financiera.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="Caso de uso Oficina.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Caso de uso Oficina.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Caso de uso Oficina.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="Caso de uso Tasa.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Caso de uso Tasa.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Caso de uso Tasa.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="Caso de uso Tipo Entidad.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Caso de uso Tipo Entidad.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Caso de uso Tipo Entidad.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="Caso de uso Ubigeo.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Caso de uso Ubigeo.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Caso de uso Ubigeo.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="Caso de Uso Usuario.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Caso de Uso Usuario.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Caso de Uso Usuario.usecasediagram</DependentUpon>
     </Content>
     <Content Include="ModelDefinition\SistemaTasas.uml">
       <SubType>Content</SubType>
