@@ -23,11 +23,17 @@ namespace ClassLibrary1
         public int Tipo_Entidad
         { get; set; }
 
+        /// <summary>
+        /// Campo que describe el id_entidad del clase
+        /// </summary>
         public int ID_Entidad
         {
             get;set;
         }
 
+        /// <summary>
+        /// Campo que describe el tipo de entidad
+        /// </summary>
         public Tipo_Entidad Tipo_Entidad1
         {
             get; set;
@@ -36,12 +42,17 @@ namespace ClassLibrary1
         /// <summary>
         /// metodos de la clase
         /// </summary>
-        public void Agregar()
+        public void Visualiza()
         {
             throw new System.NotImplementedException();
         }
 
         public void anular()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Modifica()
         {
             throw new System.NotImplementedException();
         }

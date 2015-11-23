@@ -15,45 +15,66 @@ namespace ClassLibrary1
         {
             get; set;
         }
+
         /// <summary>
-        /// 
+        /// Campo que describe la fecha de inicio de la tasa
         /// </summary>
         public int Fecha_Inicio
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe la fecha de termino de la tasa
+        /// </summary>
         public int Fecha_Termino
         {
             get; set;
         }
 
-
+        /// <summary>
+        /// Campo que describe el monto maximo de la tasa
+        /// </summary>
         public int Monto_Maximo
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe el monto minimo de la tasa
+        /// </summary>
         public int Monto_Minimo
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe el plazo maximo de la tasa
+        /// </summary>
         public int Plazo_Maximo
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe el plazo minimo de la tasa
+        /// </summary>
         public int Plazo_Minimo
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe el valor de la tasa 
+        /// </summary>
         public int Valor_Tasa
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe el id_tasa 
+        /// </summary>
         public int ID_Tasa
         {
                 get; set;
@@ -74,6 +95,11 @@ namespace ClassLibrary1
         }
 
         public void Modificar()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Elimina()
         {
             throw new System.NotImplementedException();
         }

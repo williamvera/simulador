@@ -15,16 +15,25 @@ namespace ClassLibrary1
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe el nombre del departamento
+        /// </summary>
         public int Nombre_Departamento
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe el nombre del distrito
+        /// </summary>
         public int Nombre_Distrito
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe el nombre de provincia
+        /// </summary>
         public int Nombre_Provincia
         {
             get; set;
@@ -33,12 +42,17 @@ namespace ClassLibrary1
         /// <summary>
         /// metodos de la clase
         /// </summary>
-        public void visualizar()
+        public void Visualizar()
         {
             throw new System.NotImplementedException();
         }
 
         public void Modificar()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Verificar()
         {
             throw new System.NotImplementedException();
         }

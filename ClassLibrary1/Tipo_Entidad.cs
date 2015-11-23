@@ -16,6 +16,9 @@ namespace ClassLibrary1
             set;
         }
 
+        /// <summary>
+        /// Campo que describe la descripcion de tipo
+        /// </summary>
         public int Descripcion_Tipo
         {
             get; set;
@@ -25,6 +28,11 @@ namespace ClassLibrary1
         /// metodos de la clase
         /// </summary>
         public void visualizar()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Modifica()
         {
             throw new System.NotImplementedException();
         }

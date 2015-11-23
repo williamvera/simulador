@@ -15,39 +15,63 @@ namespace ClassLibrary1
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe el id_oficina
+        /// </summary>
         public int ID_Oficina
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe el esta_activa o no 
+        /// </summary>
         public int Esta_Activa
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe la localizacion
+        /// </summary>
         public int Localizacion
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe nombre de la oficina
+        /// </summary>
         public int Nombre_Oficina
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe id_entidad
+        /// </summary>
         public int ID_Entidad
         {
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe id_ubigeo
+        /// </summary>
         public int ID_Ubigeo
         {
             get; set;
         }
+        /// <summary>
+        /// Campo que describe el ubigeo la localizacion
+        /// </summary>
         public Ubigeo Ubigeo
         {
             get; set;
         }
+        /// <summary>
+        /// Campo que describe la entidad de financiera
+        /// </summary>
         public Entidad_Financiera Entidad_Financiera
         {
             get; set;
@@ -56,7 +80,17 @@ namespace ClassLibrary1
         /// <summary>
         /// metodos de la clase
         /// </summary>
-        public void visualizar()
+        public void Visualizar()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Agrega()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Elimina()
         {
             throw new System.NotImplementedException();
         }
