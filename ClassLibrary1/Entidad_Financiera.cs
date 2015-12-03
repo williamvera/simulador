@@ -5,50 +5,43 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    public class Entidad_Financiera
+    public class EntidadFinanciera
     {
+        /// <summary>
+        /// Campo que describe el id_entidad del clase
+        /// </summary>
+        public int IDEntidad { get; private set; }
+        /// <summary>
+        /// Campo que describe el nombre de la Entidad
+        /// </summary>
+        public int NombreEntidad { get; private set; }
         /// <summary>
         /// Esta Clase entidad financiera nos sirve para indicar los campos de la entidad financiera, y los metodos que se utilizaran
         /// </summary>
         public int Esta_Activa
         { get; set; }
         /// <summary>
-        /// Campo que describe el nombre de la Entidad
-        /// </summary>
-        public int Nombre_Entidad
-        {   get; set;}
-        /// <summary>
         /// Campo que describe el tipo de la Entidad
         /// </summary>
-        public int Tipo_Entidad
-        { get; set; }
+        public int Tipo_Entidad { get; private set; }
 
-        /// <summary>
-        /// Campo que describe el id_entidad del clase
-        /// </summary>
-        public int ID_Entidad
-        {
-            get;set;
-        }
+
         /// <summary>
         /// Campo que describe el tipo de entidad
         /// </summary>
-        public Tipo_Entidad Tipo_Entidad1
-        {
-            get; set;
-        }
+        public TipoEntidad Tipo_Entidad1 { get; set; }
 
         /// <summary>
         /// metodos de la clase
         /// </summary>
-        public void Visualizar()
-        {
-            throw new System.NotImplementedException();
-        }
+        //public void Visualizar()
+        //{
+        //    throw new System.NotImplementedException();
+        //}
         /// <summary>
         /// Metodo anular Entidad Financiera
         /// </summary>
-        public void anular()
+        public void Anular()
         {
             throw new System.NotImplementedException();
         }

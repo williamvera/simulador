@@ -3,21 +3,18 @@
   <Comment CommentText="SIMULACION TASAS">
     <Position X="0.708" Y="0.635" Height="0.354" Width="1.45" />
   </Comment>
-  <Class Name="ClassLibrary1.Entidad_Financiera">
+  <Class Name="ClassLibrary1.EntidadFinanciera">
     <Position X="3.75" Y="1.25" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAIAAAAAAgBAAEACAAAAAAAAABAAAAAAAAAAABAAAA=</HashCode>
+      <HashCode>AABAAAAAAAABAAAACAAAAAAAAAAAAAAAQAAAACBAAAA=</HashCode>
       <FileName>Entidad_Financiera.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Tipo_Entidad1" />
-    </ShowAsAssociation>
   </Class>
-  <Class Name="ClassLibrary1.Tipo_Entidad">
+  <Class Name="ClassLibrary1.TipoEntidad">
     <Position X="8.25" Y="1.25" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAACAARAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Tipo_Entidad.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAEAAAAACAEAQAAAAAAAAAA=</HashCode>
+      <FileName>TipoEntidad.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibrary1.Oficina">
@@ -29,7 +26,6 @@
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Ubigeo" />
-      <Property Name="Entidad_Financiera" />
     </ShowAsAssociation>
   </Class>
   <Class Name="ClassLibrary1.Ubigeo">

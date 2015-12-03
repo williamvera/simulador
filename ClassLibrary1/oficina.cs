@@ -72,7 +72,7 @@ namespace ClassLibrary1
         /// <summary>
         /// Campo que describe la entidad de financiera
         /// </summary>
-        public Entidad_Financiera Entidad_Financiera
+        public EntidadFinanciera Entidad_Financiera
         {
             get; set;
         }
