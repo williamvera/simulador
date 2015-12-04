@@ -6,7 +6,7 @@ using System.Text;
 namespace ClassLibrary1
 {
     /// <summary>
-    /// 
+    /// Clase que representa los diferentes tipos de entidades financiera
     /// </summary>
     public class EntidadFinanciera
     {

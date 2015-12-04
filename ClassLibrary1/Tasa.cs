@@ -5,6 +5,10 @@ using System.Text;
 
 namespace ClassLibrary1
 {
+
+    /// <summary>
+    /// Clase que representa la cativacion y la fecha de la tasa
+    /// </summary>
     public class Tasa
     {
         /// <summary>

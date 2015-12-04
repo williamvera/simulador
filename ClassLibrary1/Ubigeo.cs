@@ -5,10 +5,14 @@ using System.Text;
 
 namespace ClassLibrary1
 {
+
+    /// <summary>
+    /// Clase que representa la ubicacion de la persona
+    /// </summary>
     public class Ubigeo
     {
         /// <summary>
-        /// Esta Clase ubigeo sirve para ver los datos de la uvicacion de la persona, y los metodos que se utilizaran
+        /// Esta Clase ubigeo sirve para ver los datos de la ubicacion de la persona, y los metodos que se utilizaran
         /// </summary>
         public int ID_Ubigeo
         {

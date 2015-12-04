@@ -5,6 +5,10 @@ using System.Text;
 
 namespace ClassLibrary1
 {
+
+    /// <summary>
+    /// Clase que representa el nombre y el estado del usuario
+    /// </summary>
     public class Usuario
     {
         /// <summary>

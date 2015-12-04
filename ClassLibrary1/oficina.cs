@@ -5,6 +5,9 @@ using System.Text;
 
 namespace ClassLibrary1
 {
+    /// <summary>
+    /// Clase que representa la localizacion de la oficina
+    /// </summary>
     public class Oficina
     {
         /// <summary>

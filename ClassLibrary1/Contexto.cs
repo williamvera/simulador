@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
+
+    /// <summary>
+    /// Clase que representa el contexto
+    /// </summary>
     public class Contexto : DbContext
     {
         /// <summary>
