@@ -33,8 +33,9 @@ namespace ClassLibrary1
         /// </summary>
         public virtual TipoEntidad Tipo { get; private set; }
 
-        #endregion
-
+        /// <summary>
+        /// Campo que describe el tipo de entidad
+        /// </summary>
         public TipoEntidad TipoEntidad
         {
             get
@@ -45,6 +46,8 @@ namespace ClassLibrary1
             {
             }
         }
+
+        #endregion
 
         #region Constructor
 

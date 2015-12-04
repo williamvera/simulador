@@ -11,6 +11,7 @@ namespace ClassLibrary1
     /// </summary>
     public class Ubigeo
     {
+        #region Propiedades
         /// <summary>
         /// Esta Clase ubigeo sirve para ver los datos de la ubicacion de la persona, y los metodos que se utilizaran
         /// </summary>
@@ -42,6 +43,15 @@ namespace ClassLibrary1
         {
             get; set;
         }
+        #endregion
+
+        #region Constructor
+
+        private Ubigeo() { }
+
+        #endregion
+
+        #region Metodo
 
         /// <summary>
         /// metodos de visualizacion de ubigeo
@@ -66,5 +76,6 @@ namespace ClassLibrary1
         {
             throw new System.NotImplementedException();
         }
+        #endregion
     }
 }

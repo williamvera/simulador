@@ -11,6 +11,8 @@ namespace ClassLibrary1
     /// </summary>
     public class Usuario
     {
+        #region Propiedades
+
         /// <summary>
         /// Esta Clase usuario sirve para tener ams detalles de la persona q ingresara al sistema
         /// </summary>
@@ -53,6 +55,12 @@ namespace ClassLibrary1
             get; set;
 
          }
+        #endregion
+        #region Constructor
+
+        private Usuario() { }
+
+        #endregion
     }
 }
  

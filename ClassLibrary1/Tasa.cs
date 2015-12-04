@@ -11,6 +11,7 @@ namespace ClassLibrary1
     /// </summary>
     public class Tasa
     {
+        #region Propiedades
         /// <summary>
         /// Esta Clase Tasa nos sirme para verficar los montos y los plazos de maximo a minimo y el valor de la taza
         /// , y los metodos que se utilizaran
@@ -92,6 +93,15 @@ namespace ClassLibrary1
         {
             get; set;
         }
+        #endregion
+
+        #region Constructor
+
+        private Tasa() { }
+
+        #endregion
+
+        #region Metodo
 
         /// <summary>
         /// metodos de visualizacion de la tasa
@@ -116,5 +126,6 @@ namespace ClassLibrary1
         {
             throw new System.NotImplementedException();
         }
+        #endregion
     }
 }

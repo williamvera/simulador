@@ -10,6 +10,8 @@ namespace ClassLibrary1
     /// </summary>
     public class Oficina
     {
+        #region Propiedades
+
         /// <summary>
         /// Esta Clase Oficina sirve para ver el nombre de la oficina y la localizacion, y los metodos que se utilizaran
         /// </summary>
@@ -80,17 +82,23 @@ namespace ClassLibrary1
             get; set;
         }
 
+        /// <summary>
+        /// Campo que describe la entidad
+        /// </summary>
         public EntidadFinanciera EntidadFinanciera
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
+        #endregion
 
+        #region Constructor
+
+        private Oficina() { }
+
+        #endregion
+
+        #region Metodo
         /// <summary>
         /// metodos de visualizacion de oficina
         /// </summary>
@@ -114,5 +122,6 @@ namespace ClassLibrary1
         {
             throw new System.NotImplementedException();
         }
+#endregion
     }
 }
