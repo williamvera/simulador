@@ -16,7 +16,7 @@ namespace ClassLibrary1
         /// <summary>
         /// Esta Clase Tipo entidad nos sirve para la verificacion de descripcion de tipo, y los metodos que se utilizaran
         /// </summary>
-        public byte IDTipoEntidad { get; private set; }
+        public byte ID_TipoEntidad { get; private set; }
         /// <summary>
         /// Campo que describe la descripcion de tipo
         /// </summary>

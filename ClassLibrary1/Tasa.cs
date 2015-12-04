@@ -84,6 +84,9 @@ namespace ClassLibrary1
                 get; set;
             }
 
+        /// <summary>
+        /// campo que describe la oficina
+        /// </summary>
         public Oficina Oficina
 
         {
@@ -91,18 +94,24 @@ namespace ClassLibrary1
         }
 
         /// <summary>
-        /// metodos de la clase
+        /// metodos de visualizacion de la tasa
         /// </summary>
         public void VIsualizar()
         {
             throw new System.NotImplementedException();
         }
 
+        /// <summary>
+        /// metodos de modificacion de la tasa
+        /// </summary>
         public void Modificar()
         {
             throw new System.NotImplementedException();
         }
 
+        /// <summary>
+        /// metodos de eliminacion de la oficina
+        /// </summary>
         public void Eliminar()
         {
             throw new System.NotImplementedException();

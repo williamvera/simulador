@@ -4,28 +4,32 @@
     <Position X="0.708" Y="0.635" Height="0.354" Width="1.45" />
   </Comment>
   <Class Name="ClassLibrary1.EntidadFinanciera">
-    <Position X="3.75" Y="1.25" Width="3" />
+    <Position X="4" Y="1" Width="3" />
     <TypeIdentifier>
-      <HashCode>AABAAAAAAAABAAAACAAAAAAAAAAAAAAAQAAAACBAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAgAAAAACAAAAAEAAAAABAAAQAAAACIAAEQ=</HashCode>
       <FileName>Entidad_Financiera.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TipoEntidad" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="ClassLibrary1.TipoEntidad">
     <Position X="8.25" Y="1.25" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAABAAAAEAAAAACAEAQAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAACAEAQAAAAAAAAEA=</HashCode>
       <FileName>TipoEntidad.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibrary1.Oficina">
-    <Position X="4.25" Y="4.25" Width="2.75" />
+    <Position X="4.25" Y="4.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAEIQAAwBAAEgAAAAAAAAAACAAAAUAAAAAAAAQAA=</HashCode>
+      <HashCode>AAAAAEIQBAwBAAEgAAAAAAAAAACAAAAUAAAAAAAAQAA=</HashCode>
       <FileName>Oficina.cs</FileName>
       <NewMemberFileName>oficina.cs</NewMemberFileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Ubigeo" />
+      <Property Name="EntidadFinanciera" />
     </ShowAsAssociation>
   </Class>
   <Class Name="ClassLibrary1.Ubigeo">

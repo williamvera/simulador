@@ -53,7 +53,7 @@ namespace ClassLibrary1
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Usuario>().HasKey(k => k.ID_Usuario);
             modelBuilder.Entity<EntidadFinanciera>().HasKey(k => k.ID_Entidad);
-            modelBuilder.Entity<TipoEntidad>().HasKey(k => k.ID_Tipo);
+            modelBuilder.Entity<TipoEntidad>().HasKey(k => k.ID_TipoEntidad);
             modelBuilder.Entity<Tasa>().HasKey(k => k.ID_Tasa);
             modelBuilder.Entity<Oficina>().HasKey(k => k.ID_Oficina);
             modelBuilder.Entity<Ubigeo>().HasKey(k => k.ID_Ubigeo);

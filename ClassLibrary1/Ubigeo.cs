@@ -44,18 +44,24 @@ namespace ClassLibrary1
         }
 
         /// <summary>
-        /// metodos de la clase
+        /// metodos de visualizacion de ubigeo
         /// </summary>
         public void Visualizar()
         {
             throw new System.NotImplementedException();
         }
 
+        /// <summary>
+        /// metodos de modificacion de ubigeo
+        /// </summary>
         public void Modificar()
         {
             throw new System.NotImplementedException();
         }
 
+        /// <summary>
+        /// metodos de verificacion de ubigeo
+        /// </summary>
         public void Verificar()
         {
             throw new System.NotImplementedException();

@@ -80,19 +80,36 @@ namespace ClassLibrary1
             get; set;
         }
 
+        public EntidadFinanciera EntidadFinanciera
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         /// <summary>
-        /// metodos de la clase
+        /// metodos de visualizacion de oficina
         /// </summary>
         public void Visualizar()
         {
             throw new System.NotImplementedException();
         }
 
+        /// <summary>
+        /// metodos de agregacion de oficina
+        /// </summary>
         public void Agregar()
         {
             throw new System.NotImplementedException();
         }
 
+        /// <summary>
+        /// metodos de eliminacion de oficina
+        /// </summary>
         public void Eliminar()
         {
             throw new System.NotImplementedException();

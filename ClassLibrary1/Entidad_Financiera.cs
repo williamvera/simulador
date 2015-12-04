@@ -15,7 +15,7 @@ namespace ClassLibrary1
         /// <summary>
         /// Campo que describe el id_entidad del clase
         /// </summary>
-        public int IDEntidad { get; private set; }
+        public int ID_Entidad { get; private set; }
         /// <summary>
         /// Campo que describe el nombre de la Entidad
         /// </summary>
@@ -27,13 +27,24 @@ namespace ClassLibrary1
         /// <summary>
         /// Campo que describe el tipo de la Entidad
         /// </summary>
-        public byte IDTipoEntidad { get; private set; }
+        public byte ID_TipoEntidad { get; private set; }
         /// <summary>
         /// Campo que describe el tipo de entidad
         /// </summary>
         public virtual TipoEntidad Tipo { get; private set; }
 
         #endregion
+
+        public TipoEntidad TipoEntidad
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
 
         #region Constructor
 
@@ -50,7 +61,7 @@ namespace ClassLibrary1
             return new EntidadFinanciera()
             {
                 NombreEntidad = as_nom_entidad,
-                IDTipoEntidad = aby_id_tipo,
+                ID_TipoEntidad = aby_id_tipo,
                 EstaActiva = "S"
             };
         }
