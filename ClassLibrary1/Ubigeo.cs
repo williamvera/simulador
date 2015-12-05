@@ -54,14 +54,6 @@ namespace ClassLibrary1
         #region Metodo
 
         /// <summary>
-        /// metodos de visualizacion de ubigeo
-        /// </summary>
-        public void Visualizar()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        /// <summary>
         /// metodos de modificacion de ubigeo
         /// </summary>
         public void Modificar()

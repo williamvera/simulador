@@ -16,7 +16,7 @@ namespace ClassLibrary1
         /// Esta Clase Tasa nos sirme para verficar los montos y los plazos de maximo a minimo y el valor de la taza
         /// , y los metodos que se utilizaran
         /// </summary>
-        public int Esta_Activa
+        public string Esta_Activa
         {
             get; set;
         }
@@ -102,14 +102,6 @@ namespace ClassLibrary1
         #endregion
 
         #region Metodo
-
-        /// <summary>
-        /// metodos de visualizacion de la tasa
-        /// </summary>
-        public void VIsualizar()
-        {
-            throw new System.NotImplementedException();
-        }
 
         /// <summary>
         /// metodos de modificacion de la tasa

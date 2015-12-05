@@ -59,6 +59,13 @@ namespace ClassLibrary1
 
         #region Metodos
 
+        /// <summary>
+        /// Entidad financiera relacionando con tipo entidad
+        /// </summary>
+        /// <param name="as_nom_entidad"></param>
+        /// <param name="aby_id_tipo"></param>
+        /// <returns></returns>
+
         public static EntidadFinanciera Crear(string as_nom_entidad, byte aby_id_tipo)
         {
             return new EntidadFinanciera()

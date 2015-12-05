@@ -65,6 +65,13 @@
       <SubType>Content</SubType>
       <DependentUpon>Caso de Uso Usuario.usecasediagram</DependentUpon>
     </Content>
+    <Content Include="Diagrama de Secuencia Entidad Financiera.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Diagrama de Secuencia Entidad Financiera.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Diagrama de Secuencia Entidad Financiera.sequencediagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\SistemaTasas.uml">
       <SubType>Content</SubType>
     </Content>

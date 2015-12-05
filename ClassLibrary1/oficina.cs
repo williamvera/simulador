@@ -99,13 +99,6 @@ namespace ClassLibrary1
         #endregion
 
         #region Metodo
-        /// <summary>
-        /// metodos de visualizacion de oficina
-        /// </summary>
-        public void Visualizar()
-        {
-            throw new System.NotImplementedException();
-        }
 
         /// <summary>
         /// metodos de agregacion de oficina
