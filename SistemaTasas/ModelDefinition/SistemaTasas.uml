@@ -1584,22 +1584,22 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="b7b996b3-3fad-45f5-86f4-98cc113c5655"
-            name="MessageOccurrenceSpecification12">
-            <covered>
-              <lifelineMoniker
-                Id="f7901320-7942-4245-b951-6a6b929ac693"
-                LastKnownName="Base de datos"
-                LastKnownLocation="SistemaTasas.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="f452fe0f-19d5-45b9-8331-10ecee9c67b6"
             name="MessageOccurrenceSpecification11">
             <covered>
               <lifelineMoniker
                 Id="a8757081-9267-451b-9901-c2f9551b1758"
                 LastKnownName="Usurio"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b7b996b3-3fad-45f5-86f4-98cc113c5655"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="f7901320-7942-4245-b951-6a6b929ac693"
+                LastKnownName="Base de datos"
                 LastKnownLocation="SistemaTasas.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -2017,7 +2017,7 @@
           </message>
           <message
             Id="c690932c-3559-4f13-8613-96048b1e7da3"
-            name="&lt;&lt;return&gt;&gt;"
+            name="Muestra de registro"
             messageKind="Complete"
             messageSort="Reply"
             createSelfMessage="false">
@@ -2096,6 +2096,376 @@
         isAbstract="false"
         isLeaf="false"
         isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="8f8c5aad-6300-4b0c-8ee4-f23db850d9e4"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="56310365-7a92-4e4b-bf82-f2294a3c373c"
+                LastKnownName="Localizacion"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b97c020c-4d2f-4d60-9fe7-656710501c5c"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="2b09f1eb-1dae-447d-baac-b656dc5949ba"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ba9d445a-dd2b-4d7a-ae6c-5fab99388a2e"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6f53c878-1f77-4261-85c5-36777861a426"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="2b09f1eb-1dae-447d-baac-b656dc5949ba"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7f9beac1-3d04-40bc-af9a-e8fc12144a19"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="56310365-7a92-4e4b-bf82-f2294a3c373c"
+                LastKnownName="Localizacion"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f5cfb6ee-0bc8-4bf4-b165-8b112247acb8"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="ff08ed57-017d-4025-9a07-b82ffc2c5fba"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ba9d445a-dd2b-4d7a-ae6c-5fab99388a2e"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="56310365-7a92-4e4b-bf82-f2294a3c373c"
+                LastKnownName="Localizacion"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="3294601b-8abd-43a6-b511-fc27c25fbe05"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="997a9f25-ae07-4aee-b0a3-32e22cd12dae"
+                LastKnownName="Proceso de registro"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="321ef423-6449-4b66-905e-0641a4f0775a"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="a316dd91-dfdb-4132-b399-02cc0b11c2c2"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e79e2b2c-cd4a-4a29-92ac-20e9a3811544"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="688f6ded-1371-4dc7-bb9c-628476cde4f2"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="a316dd91-dfdb-4132-b399-02cc0b11c2c2"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ba1f9cd0-b038-4851-933b-e8e4fba29b38"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="997a9f25-ae07-4aee-b0a3-32e22cd12dae"
+                LastKnownName="Proceso de registro"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6f53c878-1f77-4261-85c5-36777861a426"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="56310365-7a92-4e4b-bf82-f2294a3c373c"
+                LastKnownName="Localizacion"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e79e2b2c-cd4a-4a29-92ac-20e9a3811544"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="997a9f25-ae07-4aee-b0a3-32e22cd12dae"
+                LastKnownName="Proceso de registro"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="6993ae29-0e29-42dd-83b0-317a2c169fe9"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="9a16de0a-a3ed-4819-9e59-8dd2a5d54a3b"
+                LastKnownName="Base de Datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="423bd28e-9671-4f35-adf9-9c689464c66f"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d75cf70a-356d-4f59-84aa-bbe4038c00f1"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="6af518cd-f262-4560-b734-5a005c059366"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d75cf70a-356d-4f59-84aa-bbe4038c00f1"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="bf7baf00-a926-425b-b8de-5f82f3f85a29"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9a16de0a-a3ed-4819-9e59-8dd2a5d54a3b"
+                LastKnownName="Base de Datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b97c020c-4d2f-4d60-9fe7-656710501c5c"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="25dffe8b-6d3a-4a66-a888-a19d517644e1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="56310365-7a92-4e4b-bf82-f2294a3c373c"
+                LastKnownName="Localizacion"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="688f6ded-1371-4dc7-bb9c-628476cde4f2"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="997a9f25-ae07-4aee-b0a3-32e22cd12dae"
+                LastKnownName="Proceso de registro"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6af518cd-f262-4560-b734-5a005c059366"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="9a16de0a-a3ed-4819-9e59-8dd2a5d54a3b"
+                LastKnownName="Base de Datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="321ef423-6449-4b66-905e-0641a4f0775a"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4d869d0e-b46d-4ffc-9368-c3ff22c14381"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="997a9f25-ae07-4aee-b0a3-32e22cd12dae"
+                LastKnownName="Proceso de registro"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="423bd28e-9671-4f35-adf9-9c689464c66f"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c3292d37-ffbf-47e2-af07-f0f0f4086c2f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9a16de0a-a3ed-4819-9e59-8dd2a5d54a3b"
+                LastKnownName="Base de Datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="3bacc4e1-2a8b-4d11-b68c-f0aae641a3ba"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="9a16de0a-a3ed-4819-9e59-8dd2a5d54a3b"
+                LastKnownName="Base de Datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="04130ebd-c451-411b-930a-392bbba5fb9b"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="8420def3-94e5-4c16-abe4-24e3b0f51689"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="d7b6bd07-8ab4-4bb7-b356-88e3fad33a17"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3f21e506-63cf-4cb8-9c1b-f3758fc5fdb6"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="8420def3-94e5-4c16-abe4-24e3b0f51689"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5b31aef7-31bb-43bd-b284-78a1196671a4"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9a16de0a-a3ed-4819-9e59-8dd2a5d54a3b"
+                LastKnownName="Base de Datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="343b72dc-628f-467f-870c-ba95ec8476b1"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="ff08ed57-017d-4025-9a07-b82ffc2c5fba"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d7b6bd07-8ab4-4bb7-b356-88e3fad33a17"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="9a16de0a-a3ed-4819-9e59-8dd2a5d54a3b"
+                LastKnownName="Base de Datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3f21e506-63cf-4cb8-9c1b-f3758fc5fdb6"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="9a16de0a-a3ed-4819-9e59-8dd2a5d54a3b"
+                LastKnownName="Base de Datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e2092ec4-e984-40c9-8483-0d0a4b176bac"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="ff08ed57-017d-4025-9a07-b82ffc2c5fba"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="04130ebd-c451-411b-930a-392bbba5fb9b"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f57dd2a2-3ace-4dca-a7cd-08977611b1a9"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9a16de0a-a3ed-4819-9e59-8dd2a5d54a3b"
+                LastKnownName="Base de Datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
         <lifelines>
           <lifeline
             Id="ff08ed57-017d-4025-9a07-b82ffc2c5fba"
@@ -2107,23 +2477,175 @@
                 Id="8021bacd-aa9a-49c2-9746-f598cdac66b8"
                 LastKnownLocation="SistemaTasas.uml" />
             </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f5cfb6ee-0bc8-4bf4-b165-8b112247acb8"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="343b72dc-628f-467f-870c-ba95ec8476b1"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e2092ec4-e984-40c9-8483-0d0a4b176bac"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
           </lifeline>
           <lifeline
             Id="56310365-7a92-4e4b-bf82-f2294a3c373c"
-            name="Reporte"
+            name="Localizacion"
             isActor="false"
-            lifelineDisplayName="Reporte" />
+            lifelineDisplayName="Localizacion">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="2b09f1eb-1dae-447d-baac-b656dc5949ba"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b97c020c-4d2f-4d60-9fe7-656710501c5c"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
           <lifeline
             Id="997a9f25-ae07-4aee-b0a3-32e22cd12dae"
             name="Proceso de registro"
             isActor="false"
-            lifelineDisplayName="Proceso de registro" />
+            lifelineDisplayName="Proceso de registro">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="a316dd91-dfdb-4132-b399-02cc0b11c2c2"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="321ef423-6449-4b66-905e-0641a4f0775a"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
           <lifeline
             Id="9a16de0a-a3ed-4819-9e59-8dd2a5d54a3b"
             name="Base de Datos"
             isActor="false"
-            lifelineDisplayName="Base de Datos" />
+            lifelineDisplayName="Base de Datos">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="d75cf70a-356d-4f59-84aa-bbe4038c00f1"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="423bd28e-9671-4f35-adf9-9c689464c66f"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="8420def3-94e5-4c16-abe4-24e3b0f51689"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="04130ebd-c451-411b-930a-392bbba5fb9b"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
         </lifelines>
+        <messages>
+          <message
+            Id="2116aaeb-0015-4292-bf2e-fffe8111d5c2"
+            name="registra"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f5cfb6ee-0bc8-4bf4-b165-8b112247acb8"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ba9d445a-dd2b-4d7a-ae6c-5fab99388a2e"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="28b5d5f8-5238-4f29-955e-9a985f8cbd54"
+            name="da detalles"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6f53c878-1f77-4261-85c5-36777861a426"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e79e2b2c-cd4a-4a29-92ac-20e9a3811544"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4dd4cb2c-f4ee-47bd-8c1e-906b071402b8"
+            name="ingresar y registrar"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="688f6ded-1371-4dc7-bb9c-628476cde4f2"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6af518cd-f262-4560-b734-5a005c059366"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ac35a2d6-9498-4f57-88f6-1c08bf0e1c10"
+            name="Ver oficina localizada"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="343b72dc-628f-467f-870c-ba95ec8476b1"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d7b6bd07-8ab4-4bb7-b356-88e3fad33a17"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e96ee55c-9a1b-4216-8da2-c8e79657e26b"
+            name="Demuestra ubicacion del lugar"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3f21e506-63cf-4cb8-9c1b-f3758fc5fdb6"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e2092ec4-e984-40c9-8483-0d0a4b176bac"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
         <ownedAttributesInternal>
           <property
             Id="8021bacd-aa9a-49c2-9746-f598cdac66b8"
@@ -2153,23 +2675,744 @@
         isAbstract="false"
         isLeaf="false"
         isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="a9380202-5334-4648-b7a8-ec132539173c"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="0a7686fe-60c7-4f29-a90d-d30fc5af1084"
+                LastKnownName="Estado_activo"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="61cd3fb2-b3cb-4a89-a8ba-c430693a366e"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="5b426255-d072-478f-abd5-2c92bbe4ca05"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="5276e01c-2b01-44c9-b56d-099f2e0a9205"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="455e91c2-556b-4fe9-85b3-87108598b5c4"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="5b426255-d072-478f-abd5-2c92bbe4ca05"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fb872511-c39a-4cb6-b850-68780206a6d4"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0a7686fe-60c7-4f29-a90d-d30fc5af1084"
+                LastKnownName="Estado_activo"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e820e46a-7fe7-4cf3-b951-002d3f88d5d4"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="37e46c45-5005-4673-bd71-c78418dbe8a1"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5276e01c-2b01-44c9-b56d-099f2e0a9205"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="0a7686fe-60c7-4f29-a90d-d30fc5af1084"
+                LastKnownName="Estado_activo"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="f3db5f0e-9d88-450c-9a30-62d84f716005"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="26aa2844-3f73-40a1-9108-8526c05e9c08"
+                LastKnownName="Montos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="31c336a5-fa1f-43ee-8c06-d5bf07649e44"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="fa7a3ebd-854c-4dde-8bc5-ca46763b3047"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="981acefa-e84a-42ac-ad69-af899fb950a4"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="fa7a3ebd-854c-4dde-8bc5-ca46763b3047"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="dc968173-25d9-4a8e-8f88-f576edf182ea"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="26aa2844-3f73-40a1-9108-8526c05e9c08"
+                LastKnownName="Montos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="455e91c2-556b-4fe9-85b3-87108598b5c4"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="0a7686fe-60c7-4f29-a90d-d30fc5af1084"
+                LastKnownName="Estado_activo"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="981acefa-e84a-42ac-ad69-af899fb950a4"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="26aa2844-3f73-40a1-9108-8526c05e9c08"
+                LastKnownName="Montos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="61cd3fb2-b3cb-4a89-a8ba-c430693a366e"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="6fad980b-afce-4630-9337-4af6f8746f5b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0a7686fe-60c7-4f29-a90d-d30fc5af1084"
+                LastKnownName="Estado_activo"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="31c336a5-fa1f-43ee-8c06-d5bf07649e44"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="919712bf-a2a4-41eb-bea4-44b2f48b96c2"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="26aa2844-3f73-40a1-9108-8526c05e9c08"
+                LastKnownName="Montos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="73fa87bf-32d4-47d5-9f5d-0247f273b5a3"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="7c0d9068-c43a-4e7f-8991-2d33250b1ce9"
+                LastKnownName="Prioridad"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7da880c7-bb40-4281-abc7-6a9dd0ce258e"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="026dc0e8-229c-45ba-939d-e32ee7bfc362"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f7e2f5a1-cacc-4e6f-bae3-36703d8d159a"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4c047919-152d-49e5-a409-b6958c8da4c6"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="33f57eee-1392-4d41-9303-850ad7a3dea5"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="026dc0e8-229c-45ba-939d-e32ee7bfc362"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1b1b8d3f-a062-4b9c-82af-b8ae3b6f4820"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="7c0d9068-c43a-4e7f-8991-2d33250b1ce9"
+                LastKnownName="Prioridad"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6c86e501-30a8-46f0-b080-64384a20d1be"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="37e46c45-5005-4673-bd71-c78418dbe8a1"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f7e2f5a1-cacc-4e6f-bae3-36703d8d159a"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="7c0d9068-c43a-4e7f-8991-2d33250b1ce9"
+                LastKnownName="Prioridad"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="c21342c6-731b-4d74-b7c8-61be8a77e429"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="2d3d1aaa-327f-45d9-acb5-a8500a8486c3"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7c8dbbfa-d961-4de0-9811-0f1dcdfaadc2"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="8ab65b7a-932f-40f6-96a8-297510bfb688"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="c5e4ad24-92ff-45e6-bbef-e277836fc787"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="8ab65b7a-932f-40f6-96a8-297510bfb688"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4b9d6e29-83b2-4d9a-af7f-a9fdf45b2630"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2d3d1aaa-327f-45d9-acb5-a8500a8486c3"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4c047919-152d-49e5-a409-b6958c8da4c6"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="7c0d9068-c43a-4e7f-8991-2d33250b1ce9"
+                LastKnownName="Prioridad"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c5e4ad24-92ff-45e6-bbef-e277836fc787"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="2d3d1aaa-327f-45d9-acb5-a8500a8486c3"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="33f57eee-1392-4d41-9303-850ad7a3dea5"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="7c0d9068-c43a-4e7f-8991-2d33250b1ce9"
+                LastKnownName="Prioridad"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="81fa7a71-d5e2-4ab4-a312-3e3466483f21"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="37e46c45-5005-4673-bd71-c78418dbe8a1"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7da880c7-bb40-4281-abc7-6a9dd0ce258e"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8f123005-053e-4c62-a955-36be9eb6b348"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="7c0d9068-c43a-4e7f-8991-2d33250b1ce9"
+                LastKnownName="Prioridad"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7c8dbbfa-d961-4de0-9811-0f1dcdfaadc2"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a8189f4f-1cf1-403c-b6ba-0ee6e7952468"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2d3d1aaa-327f-45d9-acb5-a8500a8486c3"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="4f36ef36-d424-4cd0-898b-e146d33d504f"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="2d3d1aaa-327f-45d9-acb5-a8500a8486c3"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="048ffe8c-5cc7-492c-b903-0c1d73a97d20"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="791b4fbc-788a-4fe2-9af5-d50dd825904b"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="aa601466-bf71-4ae3-969d-356225f097d0"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="53064467-0adb-4c1c-ab59-b15f792f57a2"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="791b4fbc-788a-4fe2-9af5-d50dd825904b"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e07915f0-9631-4787-89c4-f728266cf031"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2d3d1aaa-327f-45d9-acb5-a8500a8486c3"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e55be9b2-69b7-4753-9d0c-3cbd1f167035"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="37e46c45-5005-4673-bd71-c78418dbe8a1"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="aa601466-bf71-4ae3-969d-356225f097d0"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="2d3d1aaa-327f-45d9-acb5-a8500a8486c3"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="53064467-0adb-4c1c-ab59-b15f792f57a2"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="2d3d1aaa-327f-45d9-acb5-a8500a8486c3"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5e2e463e-3035-4885-8a66-a3d52cacc147"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="37e46c45-5005-4673-bd71-c78418dbe8a1"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="048ffe8c-5cc7-492c-b903-0c1d73a97d20"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fd468cee-60e7-4b38-a52f-221e6f9706bf"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2d3d1aaa-327f-45d9-acb5-a8500a8486c3"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
         <lifelines>
           <lifeline
             Id="37e46c45-5005-4673-bd71-c78418dbe8a1"
-            name="Lifeline1"
-            isActor="false"
-            lifelineDisplayName="Lifeline1" />
+            name="Usuario"
+            isActor="true"
+            lifelineDisplayName="Usuario">
+            <represents>
+              <propertyMoniker
+                Id="3dfd64f9-966a-4a66-b41d-d814fed84e4c"
+                LastKnownLocation="SistemaTasas.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e820e46a-7fe7-4cf3-b951-002d3f88d5d4"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6c86e501-30a8-46f0-b080-64384a20d1be"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="81fa7a71-d5e2-4ab4-a312-3e3466483f21"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e55be9b2-69b7-4753-9d0c-3cbd1f167035"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5e2e463e-3035-4885-8a66-a3d52cacc147"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
           <lifeline
             Id="0a7686fe-60c7-4f29-a90d-d30fc5af1084"
-            name="Lifeline2"
+            name="Estado_activo"
             isActor="false"
-            lifelineDisplayName="Lifeline2" />
+            lifelineDisplayName="Estado_activo">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="5b426255-d072-478f-abd5-2c92bbe4ca05"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="61cd3fb2-b3cb-4a89-a8ba-c430693a366e"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="26aa2844-3f73-40a1-9108-8526c05e9c08"
+            name="Montos"
+            isActor="false"
+            lifelineDisplayName="Montos">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="fa7a3ebd-854c-4dde-8bc5-ca46763b3047"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="31c336a5-fa1f-43ee-8c06-d5bf07649e44"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
           <lifeline
             Id="7c0d9068-c43a-4e7f-8991-2d33250b1ce9"
-            name="Lifeline3"
+            name="Prioridad"
             isActor="false"
-            lifelineDisplayName="Lifeline3" />
+            lifelineDisplayName="Prioridad">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="026dc0e8-229c-45ba-939d-e32ee7bfc362"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7da880c7-bb40-4281-abc7-6a9dd0ce258e"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="2d3d1aaa-327f-45d9-acb5-a8500a8486c3"
+            name="Base de datos"
+            isActor="false"
+            lifelineDisplayName="Base de datos">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="8ab65b7a-932f-40f6-96a8-297510bfb688"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7c8dbbfa-d961-4de0-9811-0f1dcdfaadc2"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="791b4fbc-788a-4fe2-9af5-d50dd825904b"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="048ffe8c-5cc7-492c-b903-0c1d73a97d20"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
         </lifelines>
+        <messages>
+          <message
+            Id="9c4fe7af-3677-4a2c-a876-2ef67de24f19"
+            name="dar detalle"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e820e46a-7fe7-4cf3-b951-002d3f88d5d4"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5276e01c-2b01-44c9-b56d-099f2e0a9205"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="db24a723-2d40-4e3a-9bf3-8b0ac286fa7a"
+            name="dar montos grandes o menores "
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="455e91c2-556b-4fe9-85b3-87108598b5c4"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="981acefa-e84a-42ac-ad69-af899fb950a4"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="a6c384e5-727a-4e0f-ba13-93d3b37d5bc9"
+            name="Da detalles de los pedidos de montos"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6c86e501-30a8-46f0-b080-64384a20d1be"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f7e2f5a1-cacc-4e6f-bae3-36703d8d159a"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3ce25d0f-16ae-4df2-8564-ac1e48cce0fb"
+            name="Montos grandes"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4c047919-152d-49e5-a409-b6958c8da4c6"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c5e4ad24-92ff-45e6-bbef-e277836fc787"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f9979811-fd04-476d-b772-dfffb3ce5798"
+            name="Rechazo de montos pequeños"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="33f57eee-1392-4d41-9303-850ad7a3dea5"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="81fa7a71-d5e2-4ab4-a312-3e3466483f21"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="89fd2684-cb9b-4566-b689-89a5b1b01b92"
+            name="Verificacion de montos "
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e55be9b2-69b7-4753-9d0c-3cbd1f167035"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="aa601466-bf71-4ae3-969d-356225f097d0"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="91a0ffa7-86fa-4905-b8ba-e93976cb1a7a"
+            name="Detalles de montos (imprimido)"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="53064467-0adb-4c1c-ab59-b15f792f57a2"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5e2e463e-3035-4885-8a66-a3d52cacc147"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="3dfd64f9-966a-4a66-b41d-d814fed84e4c"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <actorMoniker
+                Id="d54585c5-8952-4f3d-b3ab-fc214ab648e4"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
       </interaction>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -2181,23 +3424,812 @@
         isAbstract="false"
         isLeaf="false"
         isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="160873ad-d58d-45ee-9d17-f1ddab23b41d"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="7fc3a007-04d2-4cd9-8252-a0fc4f5e89d2"
+                LastKnownName="Registrar_descripcion"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="3ac01e7b-f79d-4e21-bb05-3c8099d1a2d9"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="eb2d14be-fd3f-40f4-b547-377d4a80c06d"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="1d016335-b691-4cde-b96a-dfff72f1eac7"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="245c6ec0-5e4b-4e67-a65d-580e501c2c44"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="eb2d14be-fd3f-40f4-b547-377d4a80c06d"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="805b5aed-48de-4458-a25d-eedb22533784"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="7fc3a007-04d2-4cd9-8252-a0fc4f5e89d2"
+                LastKnownName="Registrar_descripcion"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f66e6761-ff4c-42c8-ac63-fc64ba20ca1c"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="a8780d31-f160-4387-8cae-3df5f05fcf0f"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1d016335-b691-4cde-b96a-dfff72f1eac7"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="7fc3a007-04d2-4cd9-8252-a0fc4f5e89d2"
+                LastKnownName="Registrar_descripcion"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="fc64169c-e572-4306-901b-c25272582005"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="4cabc051-e587-4c92-bae5-b7f4eaeaaf4c"
+                LastKnownName="Estado_activo"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7d0e4107-c3b0-467a-ae8d-63c9ae5d35f8"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="22f49f8f-e3f3-4438-b61d-6cbd86582ef5"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="a305117e-a7c7-43be-9838-bea79952c034"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ac2df56b-2210-4fcc-bdd6-fec9f0284764"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="22f49f8f-e3f3-4438-b61d-6cbd86582ef5"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="223f9bc8-7e06-48c1-bcc6-c14cdb461d8c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="4cabc051-e587-4c92-bae5-b7f4eaeaaf4c"
+                LastKnownName="Estado_activo"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="245c6ec0-5e4b-4e67-a65d-580e501c2c44"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="7fc3a007-04d2-4cd9-8252-a0fc4f5e89d2"
+                LastKnownName="Registrar_descripcion"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a305117e-a7c7-43be-9838-bea79952c034"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="4cabc051-e587-4c92-bae5-b7f4eaeaaf4c"
+                LastKnownName="Estado_activo"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="5e31d4a8-5272-4df7-9f0d-720345055499"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="2f011307-1c47-4759-9ebc-e9b8a3b59373"
+                LastKnownName="Tipo_Entidad"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="9a7ab420-3925-421b-a945-8c30afe16edf"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="02f5cb8a-703a-4c6e-a86f-cc1725b7a0fa"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="49bf6453-04af-4c73-a8bf-06a50ae0bf12"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="23420fb1-fa39-4978-8056-b7041b4267b0"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="02f5cb8a-703a-4c6e-a86f-cc1725b7a0fa"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="93f3e15f-9184-4d75-8fb9-2278b7733e61"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2f011307-1c47-4759-9ebc-e9b8a3b59373"
+                LastKnownName="Tipo_Entidad"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="3ac01e7b-f79d-4e21-bb05-3c8099d1a2d9"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="905337e2-1cc7-4309-8631-04cce2ebec06"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="7fc3a007-04d2-4cd9-8252-a0fc4f5e89d2"
+                LastKnownName="Registrar_descripcion"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="49bf6453-04af-4c73-a8bf-06a50ae0bf12"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="2f011307-1c47-4759-9ebc-e9b8a3b59373"
+                LastKnownName="Tipo_Entidad"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ac2df56b-2210-4fcc-bdd6-fec9f0284764"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="4cabc051-e587-4c92-bae5-b7f4eaeaaf4c"
+                LastKnownName="Estado_activo"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="25e62304-41e0-4778-ac7c-e5d1f3328a9b"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7980c66c-8708-4b7b-a21b-9f7853c9f6d5"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="b73decb4-e99a-4015-a48f-5c2677073a93"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="dbdc102d-0272-4605-8268-78a2cdc005f3"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="b73decb4-e99a-4015-a48f-5c2677073a93"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="889ea605-cdf4-40d3-951f-04f0f571ad89"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7d0e4107-c3b0-467a-ae8d-63c9ae5d35f8"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4655bc89-030a-469d-a562-253c4e1b0412"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="4cabc051-e587-4c92-bae5-b7f4eaeaaf4c"
+                LastKnownName="Estado_activo"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="23420fb1-fa39-4978-8056-b7041b4267b0"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="2f011307-1c47-4759-9ebc-e9b8a3b59373"
+                LastKnownName="Tipo_Entidad"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="dbdc102d-0272-4605-8268-78a2cdc005f3"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="9a7ab420-3925-421b-a945-8c30afe16edf"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b4c25978-ab58-411d-a5c1-107ea0e3fdb3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2f011307-1c47-4759-9ebc-e9b8a3b59373"
+                LastKnownName="Tipo_Entidad"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7980c66c-8708-4b7b-a21b-9f7853c9f6d5"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="bf2d5f73-97ce-489d-815a-ec9ec484a1b8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="a8ab51ed-2d6d-4896-8e3a-0f17e9766b72"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="2e6d9aba-5085-428d-a29e-5cb6e2f25a7d"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="f9c44e1a-7fc6-4ee3-9550-19cad180cbab"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="287a9aef-095e-42e4-8bb0-a505267a4cfa"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="f9c44e1a-7fc6-4ee3-9550-19cad180cbab"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2b87eb03-1522-4d33-88c1-2b103aa04ec9"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="287a9aef-095e-42e4-8bb0-a505267a4cfa"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4b5b5ff6-f543-4ca9-ad3d-b2b8b47f5c57"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="a8780d31-f160-4387-8cae-3df5f05fcf0f"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="2e6d9aba-5085-428d-a29e-5cb6e2f25a7d"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="44fd686b-4198-4a95-97c4-7e88b2537c3c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="f80a87ac-1b20-4e59-a95e-fb5ced41b97d"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="511f652a-67fc-4b7e-aa88-b4e8527cd569"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d4f5b411-0478-44d3-9fde-5ab3f6d470a5"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="752dd0ed-e119-4386-b46d-441bd99300d2"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c21d0d6b-2009-4a97-ab3c-945e87536adf"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d4f5b411-0478-44d3-9fde-5ab3f6d470a5"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c13cfab0-67c8-42ba-aadc-6d0130d4ed0a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="90bbed67-4e22-42f8-9ce7-38374d145bfd"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="a8780d31-f160-4387-8cae-3df5f05fcf0f"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="752dd0ed-e119-4386-b46d-441bd99300d2"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c21d0d6b-2009-4a97-ab3c-945e87536adf"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="95ac44bc-3d21-400f-b699-8cab4d36f951"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="a8780d31-f160-4387-8cae-3df5f05fcf0f"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="511f652a-67fc-4b7e-aa88-b4e8527cd569"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ce7b7c79-3a37-4b0e-b738-a95e9cb9dd2a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+                LastKnownName="Base de datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
         <lifelines>
           <lifeline
             Id="a8780d31-f160-4387-8cae-3df5f05fcf0f"
-            name="Lifeline1"
-            isActor="false"
-            lifelineDisplayName="Lifeline1" />
+            name="Usuario"
+            isActor="true"
+            lifelineDisplayName="Usuario">
+            <represents>
+              <propertyMoniker
+                Id="17d2bcea-1562-4f49-b899-24c388f4667f"
+                LastKnownLocation="SistemaTasas.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f66e6761-ff4c-42c8-ac63-fc64ba20ca1c"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4b5b5ff6-f543-4ca9-ad3d-b2b8b47f5c57"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="90bbed67-4e22-42f8-9ce7-38374d145bfd"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="95ac44bc-3d21-400f-b699-8cab4d36f951"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
           <lifeline
             Id="7fc3a007-04d2-4cd9-8252-a0fc4f5e89d2"
-            name="Lifeline2"
+            name="Registrar_descripcion"
             isActor="false"
-            lifelineDisplayName="Lifeline2" />
+            lifelineDisplayName="Registrar_descripcion">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="eb2d14be-fd3f-40f4-b547-377d4a80c06d"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3ac01e7b-f79d-4e21-bb05-3c8099d1a2d9"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
           <lifeline
             Id="4cabc051-e587-4c92-bae5-b7f4eaeaaf4c"
-            name="Lifeline3"
+            name="Estado_activo"
             isActor="false"
-            lifelineDisplayName="Lifeline3" />
+            lifelineDisplayName="Estado_activo">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="22f49f8f-e3f3-4438-b61d-6cbd86582ef5"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7d0e4107-c3b0-467a-ae8d-63c9ae5d35f8"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="2f011307-1c47-4759-9ebc-e9b8a3b59373"
+            name="Tipo_Entidad"
+            isActor="false"
+            lifelineDisplayName="Tipo_Entidad">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="02f5cb8a-703a-4c6e-a86f-cc1725b7a0fa"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9a7ab420-3925-421b-a945-8c30afe16edf"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="5026cb03-9815-4dcc-bdc5-a6fdb8a45049"
+            name="Base de datos"
+            isActor="false"
+            lifelineDisplayName="Base de datos">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="b73decb4-e99a-4015-a48f-5c2677073a93"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7980c66c-8708-4b7b-a21b-9f7853c9f6d5"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f9c44e1a-7fc6-4ee3-9550-19cad180cbab"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2e6d9aba-5085-428d-a29e-5cb6e2f25a7d"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d4f5b411-0478-44d3-9fde-5ab3f6d470a5"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="511f652a-67fc-4b7e-aa88-b4e8527cd569"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
         </lifelines>
+        <messages>
+          <message
+            Id="bee1f63d-6fc0-4f49-849e-c6af780ed31f"
+            name="detalla"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f66e6761-ff4c-42c8-ac63-fc64ba20ca1c"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1d016335-b691-4cde-b96a-dfff72f1eac7"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="1f105fd6-c076-429d-946a-413ec4a90f51"
+            name="colcar el estado"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="245c6ec0-5e4b-4e67-a65d-580e501c2c44"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a305117e-a7c7-43be-9838-bea79952c034"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="cb68ea84-7c38-4747-8fa5-c37332025cd8"
+            name="dar tipo"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ac2df56b-2210-4fcc-bdd6-fec9f0284764"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="49bf6453-04af-4c73-a8bf-06a50ae0bf12"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="81ec950c-4e1d-4a33-9e50-6b7efa7ae022"
+            name="almacena"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="23420fb1-fa39-4978-8056-b7041b4267b0"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="dbdc102d-0272-4605-8268-78a2cdc005f3"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="76a85eeb-4503-40e1-932c-5462dbc0efc5"
+            name="revicion de datos"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4b5b5ff6-f543-4ca9-ad3d-b2b8b47f5c57"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="287a9aef-095e-42e4-8bb0-a505267a4cfa"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="674f5bfd-80af-4830-9c71-e5d01a51a55a"
+            name="infome detallado de tipo"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="90bbed67-4e22-42f8-9ce7-38374d145bfd"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="752dd0ed-e119-4386-b46d-441bd99300d2"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="443275f9-6e45-4781-96ae-90d75b380740"
+            name="Muestra datos "
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c21d0d6b-2009-4a97-ab3c-945e87536adf"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="95ac44bc-3d21-400f-b699-8cab4d36f951"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="17d2bcea-1562-4f49-b899-24c388f4667f"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <actorMoniker
+                Id="d54585c5-8952-4f3d-b3ab-fc214ab648e4"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
       </interaction>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -2209,23 +4241,681 @@
         isAbstract="false"
         isLeaf="false"
         isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="887ab66f-87a6-43bf-980f-09d74bced610"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="18754a35-db50-4cb7-87d4-6758def75bba"
+                LastKnownName="Almacenar_datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="09eb7b07-8306-4bb1-98ac-538df200d20b"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="c964e946-7e94-4e6d-af10-f1d49f285449"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="6c1df87e-da4f-4d99-853b-0afed9c0fd99"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0c337244-6c96-4a62-a171-c60196244579"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="c964e946-7e94-4e6d-af10-f1d49f285449"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="6fb70eac-afdb-4dfc-a784-20ac774fc5bf"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="18754a35-db50-4cb7-87d4-6758def75bba"
+                LastKnownName="Almacenar_datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a1fc89b6-010f-4d5e-a125-d16004d9555a"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="bcd04672-1168-4d5a-b53f-853fb016d7ad"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6c1df87e-da4f-4d99-853b-0afed9c0fd99"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="18754a35-db50-4cb7-87d4-6758def75bba"
+                LastKnownName="Almacenar_datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="648fa08b-643a-4064-a2f0-b92392b1e48d"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="2868f0c0-7303-42a1-b69a-22d78190f844"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="8e690d8c-3298-424e-8cac-b306fb577426"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="abb6291c-7a21-43e2-885d-b662cd5eab44"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="8e690d8c-3298-424e-8cac-b306fb577426"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="700944d1-b11a-445b-83c5-239d28d31f62"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0c337244-6c96-4a62-a171-c60196244579"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="18754a35-db50-4cb7-87d4-6758def75bba"
+                LastKnownName="Almacenar_datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="abb6291c-7a21-43e2-885d-b662cd5eab44"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="09eb7b07-8306-4bb1-98ac-538df200d20b"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="43146c76-93fb-49b4-a5fd-b2504fc21713"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="18754a35-db50-4cb7-87d4-6758def75bba"
+                LastKnownName="Almacenar_datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="2868f0c0-7303-42a1-b69a-22d78190f844"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="674427b6-ad06-45a5-b763-5288a7019d58"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="0ccb2648-60d3-4419-bcce-5b732249d6aa"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="18754a35-db50-4cb7-87d4-6758def75bba"
+                LastKnownName="Almacenar_datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="832bd7b8-a12c-4380-814f-4f4890a796a7"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="91219a03-a101-4021-9d7e-12ab59f0f4e2"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="70b7438c-d00a-42f1-9d0c-0e5db591e4bc"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="595dd0f0-051d-4f53-b091-6be972906146"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="91219a03-a101-4021-9d7e-12ab59f0f4e2"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="bfd94bb7-2b53-4cb7-b218-5b8615946ca6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="18754a35-db50-4cb7-87d4-6758def75bba"
+                LastKnownName="Almacenar_datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f1f122d7-04de-495a-909d-a11352c02cc9"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="bcd04672-1168-4d5a-b53f-853fb016d7ad"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="70b7438c-d00a-42f1-9d0c-0e5db591e4bc"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="18754a35-db50-4cb7-87d4-6758def75bba"
+                LastKnownName="Almacenar_datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="70871092-55a0-4e0f-9449-87da3d3b1a37"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="af18723a-591a-4204-a97c-f579425e501c"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="40f22db4-c0f1-4ee1-86f7-451067726984"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="d5d5f3a7-52af-4ee0-8b9e-af9076939876"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="40f22db4-c0f1-4ee1-86f7-451067726984"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5b44b7d8-35fd-424f-bbc5-a5d4251bad31"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="595dd0f0-051d-4f53-b091-6be972906146"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="18754a35-db50-4cb7-87d4-6758def75bba"
+                LastKnownName="Almacenar_datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d5d5f3a7-52af-4ee0-8b9e-af9076939876"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="832bd7b8-a12c-4380-814f-4f4890a796a7"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="63f6f487-8dde-4f40-9133-96273fa43c21"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="18754a35-db50-4cb7-87d4-6758def75bba"
+                LastKnownName="Almacenar_datos"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="af18723a-591a-4204-a97c-f579425e501c"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="04bc3364-13ab-4b09-bc85-6dff28d12b60"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="b63339be-137f-4907-86a3-496cd2319f44"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="d724e167-4437-46d9-90a7-3a09f374c261"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="5c44e781-598b-44de-8b3c-8af9f585c0ac"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="2913ff62-2975-4540-8d6f-239f4065b665"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5ff93bef-f0c5-4c30-a9ef-1253445c0996"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="5c44e781-598b-44de-8b3c-8af9f585c0ac"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="cece1736-5d59-49cb-b5bf-5bede98e095a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4ce04ea9-3abf-43fa-855f-6398c59bea61"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="bcd04672-1168-4d5a-b53f-853fb016d7ad"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2913ff62-2975-4540-8d6f-239f4065b665"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f4135d16-0506-4d50-afe4-d17effc5166a"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="bcd04672-1168-4d5a-b53f-853fb016d7ad"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5ff93bef-f0c5-4c30-a9ef-1253445c0996"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="d724e167-4437-46d9-90a7-3a09f374c261"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="16640ae2-2d4f-4eee-bb90-c5f8cce08173"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
+                LastKnownName="Servidor"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
         <lifelines>
           <lifeline
             Id="bcd04672-1168-4d5a-b53f-853fb016d7ad"
-            name="Lifeline1"
-            isActor="false"
-            lifelineDisplayName="Lifeline1" />
+            name="Usuario"
+            isActor="true"
+            lifelineDisplayName="Usuario">
+            <represents>
+              <propertyMoniker
+                Id="f1646646-72e1-4f5b-8fdf-965f0bb09c8b"
+                LastKnownLocation="SistemaTasas.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="a1fc89b6-010f-4d5e-a125-d16004d9555a"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f1f122d7-04de-495a-909d-a11352c02cc9"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4ce04ea9-3abf-43fa-855f-6398c59bea61"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f4135d16-0506-4d50-afe4-d17effc5166a"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
           <lifeline
             Id="18754a35-db50-4cb7-87d4-6758def75bba"
-            name="Lifeline2"
+            name="Almacenar_datos"
             isActor="false"
-            lifelineDisplayName="Lifeline2" />
+            lifelineDisplayName="Almacenar_datos">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="c964e946-7e94-4e6d-af10-f1d49f285449"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="09eb7b07-8306-4bb1-98ac-538df200d20b"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="91219a03-a101-4021-9d7e-12ab59f0f4e2"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="832bd7b8-a12c-4380-814f-4f4890a796a7"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
           <lifeline
             Id="8f49b244-ffef-4a6d-9e41-51be08ca5b0e"
-            name="Lifeline3"
+            name="Servidor"
             isActor="false"
-            lifelineDisplayName="Lifeline3" />
+            lifelineDisplayName="Servidor">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="8e690d8c-3298-424e-8cac-b306fb577426"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2868f0c0-7303-42a1-b69a-22d78190f844"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="40f22db4-c0f1-4ee1-86f7-451067726984"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="af18723a-591a-4204-a97c-f579425e501c"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="5c44e781-598b-44de-8b3c-8af9f585c0ac"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d724e167-4437-46d9-90a7-3a09f374c261"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
         </lifelines>
+        <messages>
+          <message
+            Id="9dd642a6-62c3-46fa-88a2-62e619acfd37"
+            name="agrega ubicacion"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a1fc89b6-010f-4d5e-a125-d16004d9555a"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6c1df87e-da4f-4d99-853b-0afed9c0fd99"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b1582602-ec13-488b-877c-9dc5c83fa651"
+            name="procede a almacen"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0c337244-6c96-4a62-a171-c60196244579"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="abb6291c-7a21-43e2-885d-b662cd5eab44"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="52fc9dbe-7918-4e70-9a1d-a73424b70fc1"
+            name="agrega localizacion"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f1f122d7-04de-495a-909d-a11352c02cc9"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="70b7438c-d00a-42f1-9d0c-0e5db591e4bc"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="643ac805-4a35-4fe1-ab77-1fc1d078b860"
+            name="registrandose"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="595dd0f0-051d-4f53-b091-6be972906146"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d5d5f3a7-52af-4ee0-8b9e-af9076939876"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="31f0759c-7538-4fe2-97e1-254c0e346e44"
+            name="buscar detalles"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4ce04ea9-3abf-43fa-855f-6398c59bea61"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2913ff62-2975-4540-8d6f-239f4065b665"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="243af7cb-997e-46dd-9271-4328f340f3cc"
+            name="Mostrar detalles "
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5ff93bef-f0c5-4c30-a9ef-1253445c0996"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f4135d16-0506-4d50-afe4-d17effc5166a"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="f1646646-72e1-4f5b-8fdf-965f0bb09c8b"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <actorMoniker
+                Id="d54585c5-8952-4f3d-b3ab-fc214ab648e4"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
       </interaction>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -2238,6 +4928,178 @@
         isLeaf="false"
         isReentrant="false">
         <fragments>
+          <behaviorExecutionSpecification
+            Id="b4b4a5fd-6f3b-4c91-9c5b-abc7f42f5c8b"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fca20685-c078-44a8-b52d-26d2fc6b4fce"
+                LastKnownName="Sistema"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="e739f769-2e5e-4263-ab2a-acea304f2622"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="e544735f-2ec6-491d-94c7-8b330a602762"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="8259e83c-c6c6-43e3-88b0-ced203600cb7"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="551b996f-b707-4bd5-8867-43dc0b27006e"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="e544735f-2ec6-491d-94c7-8b330a602762"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="07367ee9-8ce4-4a34-85c9-1fc0de356cfa"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fca20685-c078-44a8-b52d-26d2fc6b4fce"
+                LastKnownName="Sistema"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8259e83c-c6c6-43e3-88b0-ced203600cb7"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="fca20685-c078-44a8-b52d-26d2fc6b4fce"
+                LastKnownName="Sistema"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="44a10c5e-e787-4a6e-8437-1272eb324557"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="5ff0199d-9ec2-4e9b-884c-e0a45310d1d2"
+                LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="3c2bbb0d-f69f-4d4f-aaa2-cba16e236323"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="79fd9537-8f84-48cb-999b-4f84828580ae"
+                LastKnownName="Login"
+                LastKnownLocation="SistemaTasas.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="1f66d5ee-17b3-436b-bd8b-5a803570ace1"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="SistemaTasas.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="bad406ba-9654-488d-983e-91dc04de180e"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="SistemaTasas.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="3dee86c2-afb1-4fd8-a58b-a70204d85d24"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="SistemaTasas.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="bad406ba-9654-488d-983e-91dc04de180e"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="037c0e52-4922-4ff2-9b09-a60e8f34dac1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="79fd9537-8f84-48cb-999b-4f84828580ae"
+                LastKnownName="Login"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3dee86c2-afb1-4fd8-a58b-a70204d85d24"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="79fd9537-8f84-48cb-999b-4f84828580ae"
+                LastKnownName="Login"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="551b996f-b707-4bd5-8867-43dc0b27006e"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="fca20685-c078-44a8-b52d-26d2fc6b4fce"
+                LastKnownName="Sistema"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="e739f769-2e5e-4263-ab2a-acea304f2622"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1fb39168-97cd-4a34-a2bd-750cc9377a77"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fca20685-c078-44a8-b52d-26d2fc6b4fce"
+                LastKnownName="Sistema"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="1f66d5ee-17b3-436b-bd8b-5a803570ace1"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d583219c-cfe3-42d5-a570-c281eb687965"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SistemaTasas.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="79fd9537-8f84-48cb-999b-4f84828580ae"
+                LastKnownName="Login"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
           <behaviorExecutionSpecification
             Id="ff38b87b-7144-4d37-8224-cd2dd17f0e48"
             name="BehaviorExecutionSpecification2">
@@ -2289,16 +5151,6 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="4e718c8d-98d9-4ab7-a9ed-61f077f9f710"
-            name="MessageOccurrenceSpecification3">
-            <covered>
-              <lifelineMoniker
-                Id="5ff0199d-9ec2-4e9b-884c-e0a45310d1d2"
-                LastKnownName="Usuario"
-                LastKnownLocation="SistemaTasas.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="2b908392-aedc-4576-b82e-d6178405d766"
             name="MessageOccurrenceSpecification4">
             <covered>
@@ -2309,12 +5161,12 @@
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="10278ac1-5774-4410-9d9b-60c49f53dd41"
-            name="MessageOccurrenceSpecification5">
+            Id="4e718c8d-98d9-4ab7-a9ed-61f077f9f710"
+            name="MessageOccurrenceSpecification3">
             <covered>
               <lifelineMoniker
-                Id="79fd9537-8f84-48cb-999b-4f84828580ae"
-                LastKnownName="Login"
+                Id="5ff0199d-9ec2-4e9b-884c-e0a45310d1d2"
+                LastKnownName="Usuario"
                 LastKnownLocation="SistemaTasas.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -2325,6 +5177,16 @@
               <lifelineMoniker
                 Id="5ff0199d-9ec2-4e9b-884c-e0a45310d1d2"
                 LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="10278ac1-5774-4410-9d9b-60c49f53dd41"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="79fd9537-8f84-48cb-999b-4f84828580ae"
+                LastKnownName="Login"
                 LastKnownLocation="SistemaTasas.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -2417,22 +5279,22 @@
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="bf6387e2-4629-4120-8671-dbb5d0aa0a39"
-            name="MessageOccurrenceSpecification11">
-            <covered>
-              <lifelineMoniker
-                Id="79fd9537-8f84-48cb-999b-4f84828580ae"
-                LastKnownName="Login"
-                LastKnownLocation="SistemaTasas.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="9574a8a7-8540-490e-a7ac-4d32453c915e"
             name="MessageOccurrenceSpecification12">
             <covered>
               <lifelineMoniker
                 Id="5ff0199d-9ec2-4e9b-884c-e0a45310d1d2"
                 LastKnownName="Usuario"
+                LastKnownLocation="SistemaTasas.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bf6387e2-4629-4120-8671-dbb5d0aa0a39"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="79fd9537-8f84-48cb-999b-4f84828580ae"
+                LastKnownName="Login"
                 LastKnownLocation="SistemaTasas.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -2468,6 +5330,10 @@
             </represents>
             <topLevelOccurrences>
               <messageOccurrenceSpecificationMoniker
+                Id="44a10c5e-e787-4a6e-8437-1272eb324557"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="SistemaTasas.uml" />
+              <messageOccurrenceSpecificationMoniker
                 Id="4e718c8d-98d9-4ab7-a9ed-61f077f9f710"
                 LastKnownName="MessageOccurrenceSpecification3"
                 LastKnownLocation="SistemaTasas.uml" />
@@ -2489,7 +5355,18 @@
             Id="fca20685-c078-44a8-b52d-26d2fc6b4fce"
             name="Sistema"
             isActor="false"
-            lifelineDisplayName="Sistema" />
+            lifelineDisplayName="Sistema">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="e544735f-2ec6-491d-94c7-8b330a602762"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="e739f769-2e5e-4263-ab2a-acea304f2622"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="SistemaTasas.uml" />
+            </topLevelOccurrences>
+          </lifeline>
           <lifeline
             Id="79fd9537-8f84-48cb-999b-4f84828580ae"
             name="Login"
@@ -2501,6 +5378,14 @@
                 LastKnownLocation="SistemaTasas.uml" />
             </represents>
             <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="bad406ba-9654-488d-983e-91dc04de180e"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="SistemaTasas.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="1f66d5ee-17b3-436b-bd8b-5a803570ace1"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="SistemaTasas.uml" />
               <executionOccurrenceSpecificationMoniker
                 Id="24d6d424-317d-42b1-9e9f-c9d9913ec114"
                 LastKnownName="ExecutionOccurrenceSpecification3"
@@ -2521,6 +5406,44 @@
           </lifeline>
         </lifelines>
         <messages>
+          <message
+            Id="01f834eb-b092-4df5-a383-a156f3e3d8ad"
+            name="registrarse"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="44a10c5e-e787-4a6e-8437-1272eb324557"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8259e83c-c6c6-43e3-88b0-ced203600cb7"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="5510ba44-c8ca-49eb-b7ba-7cac63be1a7b"
+            name="agregacion"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="551b996f-b707-4bd5-8867-43dc0b27006e"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="SistemaTasas.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3dee86c2-afb1-4fd8-a58b-a70204d85d24"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="SistemaTasas.uml" />
+            </receiveEvent>
+          </message>
           <message
             Id="644c6470-3c6f-4d63-83c3-31a2b81a38e6"
             name="Ingresar"
@@ -2652,6 +5575,226 @@
     <packageHasNamedElement>
       <executionEvent
         Id="1703e7c3-6e43-4a31-bb0b-d79a372186e4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="6fb70eac-afdb-4dfc-a784-20ac774fc5bf"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="43146c76-93fb-49b4-a5fd-b2504fc21713"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="bfd94bb7-2b53-4cb7-b218-5b8615946ca6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="63f6f487-8dde-4f40-9133-96273fa43c21"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="700944d1-b11a-445b-83c5-239d28d31f62"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="674427b6-ad06-45a5-b763-5288a7019d58"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5b44b7d8-35fd-424f-bbc5-a5d4251bad31"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="04bc3364-13ab-4b09-bc85-6dff28d12b60"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="cece1736-5d59-49cb-b5bf-5bede98e095a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="16640ae2-2d4f-4eee-bb90-c5f8cce08173"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="805b5aed-48de-4458-a25d-eedb22533784"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="905337e2-1cc7-4309-8631-04cce2ebec06"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="223f9bc8-7e06-48c1-bcc6-c14cdb461d8c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4655bc89-030a-469d-a562-253c4e1b0412"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="93f3e15f-9184-4d75-8fb9-2278b7733e61"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b4c25978-ab58-411d-a5c1-107ea0e3fdb3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="889ea605-cdf4-40d3-951f-04f0f571ad89"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="bf2d5f73-97ce-489d-815a-ec9ec484a1b8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2b87eb03-1522-4d33-88c1-2b103aa04ec9"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="44fd686b-4198-4a95-97c4-7e88b2537c3c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c13cfab0-67c8-42ba-aadc-6d0130d4ed0a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ce7b7c79-3a37-4b0e-b738-a95e9cb9dd2a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fb872511-c39a-4cb6-b850-68780206a6d4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="6fad980b-afce-4630-9337-4af6f8746f5b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="dc968173-25d9-4a8e-8f88-f576edf182ea"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="919712bf-a2a4-41eb-bea4-44b2f48b96c2"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1b1b8d3f-a062-4b9c-82af-b8ae3b6f4820"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8f123005-053e-4c62-a955-36be9eb6b348"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4b9d6e29-83b2-4d9a-af7f-a9fdf45b2630"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a8189f4f-1cf1-403c-b6ba-0ee6e7952468"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e07915f0-9631-4787-89c4-f728266cf031"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fd468cee-60e7-4b38-a52f-221e6f9706bf"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7f9beac1-3d04-40bc-af9a-e8fc12144a19"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="25dffe8b-6d3a-4a66-a888-a19d517644e1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ba1f9cd0-b038-4851-933b-e8e4fba29b38"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4d869d0e-b46d-4ffc-9368-c3ff22c14381"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="bf7baf00-a926-425b-b8de-5f82f3f85a29"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c3292d37-ffbf-47e2-af07-f0f0f4086c2f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5b31aef7-31bb-43bd-b284-78a1196671a4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f57dd2a2-3ace-4dca-a7cd-08977611b1a9"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="07367ee9-8ce4-4a34-85c9-1fc0de356cfa"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1fb39168-97cd-4a34-a2bd-750cc9377a77"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="037c0e52-4922-4ff2-9b09-a60e8f34dac1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d583219c-cfe3-42d5-a570-c281eb687965"
         name="ExecutionEvent" />
     </packageHasNamedElement>
   </packagedElements>

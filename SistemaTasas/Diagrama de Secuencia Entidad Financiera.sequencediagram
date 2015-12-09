@@ -142,16 +142,16 @@
               <lifelineMoniker Id="04939100-ffd4-484d-84f1-46c2dcf7354d" LastKnownName="Base de datos" />
             </covered>
           </executionOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="3a743c52-6520-4f86-bdef-6b1dda446a58" name="MessageOccurrenceSpecification12">
-            <elementDefinition Id="b7b996b3-3fad-45f5-86f4-98cc113c5655" />
-            <covered>
-              <lifelineMoniker Id="04939100-ffd4-484d-84f1-46c2dcf7354d" LastKnownName="Base de datos" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="e3b750d5-d7b0-4ce4-995d-559e187c33e2" name="MessageOccurrenceSpecification11">
             <elementDefinition Id="f452fe0f-19d5-45b9-8331-10ecee9c67b6" />
             <covered>
               <lifelineMoniker Id="a827240f-8785-46e6-a9e2-86ee49e7c7e0" LastKnownName="Usurio" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3a743c52-6520-4f86-bdef-6b1dda446a58" name="MessageOccurrenceSpecification12">
+            <elementDefinition Id="b7b996b3-3fad-45f5-86f4-98cc113c5655" />
+            <covered>
+              <lifelineMoniker Id="04939100-ffd4-484d-84f1-46c2dcf7354d" LastKnownName="Base de datos" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification Id="c65a6532-bbc2-47d8-863d-ee7fe95cf56b" name="ExecutionOccurrenceSpecification10">
@@ -361,7 +361,7 @@
               <messageOccurrenceSpecificationMoniker Id="ea21c10c-e4f1-4d24-b5d2-163ac62d6451" LastKnownName="MessageOccurrenceSpecification20" />
             </receiveEvent>
           </message>
-          <message Id="481c823b-443e-44cf-a038-d4630a63370e" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+          <message Id="481c823b-443e-44cf-a038-d4630a63370e" name="Muestra de registro" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
             <elementDefinition Id="c690932c-3559-4f13-8613-96048b1e7da3" />
             <sendEvent>
               <messageOccurrenceSpecificationMoniker Id="97895839-ea66-42be-be68-20a7d49f758c" LastKnownName="MessageOccurrenceSpecification21" />
