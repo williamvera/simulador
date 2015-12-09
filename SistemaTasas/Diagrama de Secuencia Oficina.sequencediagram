@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="4142a94f-4c36-499b-99ff-726c5fa416f2" name="Diagrama de Secuencia Oficina" linkedPackageId="57d98c2c-0e10-4b85-979f-fa4bdbfc4367" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="e6c56be0-76ff-4c97-8f32-c57dd0afd2f7">
+      <profileInstance Id="3abae686-0b18-40df-92c9-124af760aec0" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="693ef27c-165e-493a-aa35-81ffda8353ee">
+      <profileInstance Id="7dab227d-72b7-4dd8-ba0f-911deb44c7ef" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="c3571143-d8ee-41b4-9d3a-42073b7f36f9" name="Diagrama de Secuencia Oficina" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="ee1ca70a-f553-44e2-8aac-7760de2db786" />
+        <lifelines>
+          <lifeline Id="d2bf83a3-edc4-4b31-ba42-d1b27c696cb4" name="Usuario" isActor="true" lifelineDisplayName="Usuario">
+            <elementDefinition Id="ff08ed57-017d-4025-9a07-b82ffc2c5fba" />
+            <represents>
+              <propertyMoniker Id="797f1b9a-a8eb-40fa-b327-8d2a9bba5c41" />
+            </represents>
+          </lifeline>
+          <lifeline Id="63a9d0da-07dd-4f4a-b5de-14540efa3bf8" name="Reporte" isActor="false" lifelineDisplayName="Reporte">
+            <elementDefinition Id="56310365-7a92-4e4b-bf82-f2294a3c373c" />
+          </lifeline>
+          <lifeline Id="8a062b6f-d822-4b8b-9dcb-87c1b455acdb" name="Proceso de registro" isActor="false" lifelineDisplayName="Proceso de registro">
+            <elementDefinition Id="997a9f25-ae07-4aee-b0a3-32e22cd12dae" />
+          </lifeline>
+          <lifeline Id="c9c9f2bf-db3f-41e0-90ff-aa96c13fd4bf" name="Base de Datos" isActor="false" lifelineDisplayName="Base de Datos">
+            <elementDefinition Id="9a16de0a-a3ed-4819-9e59-8dd2a5d54a3b" />
+          </lifeline>
+        </lifelines>
+        <ownedAttributesInternal>
+          <property Id="797f1b9a-a8eb-40fa-b327-8d2a9bba5c41" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8021bacd-aa9a-49c2-9746-f598cdac66b8" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3814330c-d2d6-404a-855e-78e1753edfc7" LastKnownName="Usuario" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3814330c-d2d6-404a-855e-78e1753edfc7" name="Usuario" isAbstract="false" isLeaf="false" cachedFullName="SistemaTasas::Usuario">
+        <elementDefinition Id="d54585c5-8952-4f3d-b3ab-fc214ab648e4" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="57d98c2c-0e10-4b85-979f-fa4bdbfc4367" name="SistemaTasas">
+    <elementDefinition Id="a6b72f3a-7fc4-468f-ac5f-c99758753e0c" />
+  </package>
+</SequenceDesignerModel>

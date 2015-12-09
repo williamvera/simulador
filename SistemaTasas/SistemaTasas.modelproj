@@ -72,6 +72,41 @@
       <SubType>Content</SubType>
       <DependentUpon>Diagrama de Secuencia Entidad Financiera.sequencediagram</DependentUpon>
     </Content>
+    <Content Include="Diagrama de Secuencia Oficina.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Diagrama de Secuencia Oficina.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Diagrama de Secuencia Oficina.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Diagrama de Secuencia Tasa.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Diagrama de Secuencia Tasa.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Diagrama de Secuencia Tasa.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Diagrama de Secuencia Tipo Entidad.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Diagrama de Secuencia Tipo Entidad.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Diagrama de Secuencia Tipo Entidad.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Diagrama de Secuencia Ubigeo.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Diagrama de Secuencia Ubigeo.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Diagrama de Secuencia Ubigeo.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Diagrama de Secuencia Usuario.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Diagrama de Secuencia Usuario.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Diagrama de Secuencia Usuario.sequencediagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\SistemaTasas.uml">
       <SubType>Content</SubType>
     </Content>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="2e327469-cef0-491b-8c47-de31da4d175b" name="Diagrama de Secuencia Tipo Entidad" linkedPackageId="5e3838c4-a2c0-4f64-8399-45f7a8187da3" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="084b731c-ca8a-4c61-a460-34426bebf168">
+      <profileInstance Id="ba7c8655-b829-4a2c-affe-9c082046764d" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="91796fae-c1de-415a-b58b-0b1881761f69">
+      <profileInstance Id="b9fbf517-dc3c-4b4c-9f34-02b0f741eceb" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="a62d30f7-0a4a-44fb-87d5-34a6d0f36570" name="Diagrama de Secuencia Tipo Entidad" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="6ebf7261-a7dc-4195-8456-346588a2b736" />
+        <lifelines>
+          <lifeline Id="91b57763-a349-40a7-b622-26f584fc4a91" name="Lifeline1" isActor="false" lifelineDisplayName="Lifeline1">
+            <elementDefinition Id="a8780d31-f160-4387-8cae-3df5f05fcf0f" />
+          </lifeline>
+          <lifeline Id="e7a7c609-bc48-4cea-a776-7568acf3897c" name="Lifeline2" isActor="false" lifelineDisplayName="Lifeline2">
+            <elementDefinition Id="7fc3a007-04d2-4cd9-8252-a0fc4f5e89d2" />
+          </lifeline>
+          <lifeline Id="cd3f1972-429d-4bce-b311-5c49829321b4" name="Lifeline3" isActor="false" lifelineDisplayName="Lifeline3">
+            <elementDefinition Id="4cabc051-e587-4c92-bae5-b7f4eaeaaf4c" />
+          </lifeline>
+        </lifelines>
+      </interaction>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="5e3838c4-a2c0-4f64-8399-45f7a8187da3" name="SistemaTasas">
+    <elementDefinition Id="a6b72f3a-7fc4-468f-ac5f-c99758753e0c" />
+  </package>
+</SequenceDesignerModel>

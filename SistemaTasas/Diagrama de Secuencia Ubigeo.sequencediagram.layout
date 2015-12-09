@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sequenceDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Diagrama de Secuencia Ubigeo">
+  <SequenceDesignerModelMoniker Id="10dfadbf-4c7c-4dfe-ba76-123a6a6de9a4" />
+  <nestedChildShapes>
+    <lifelineShape Id="1d0915a1-f49f-4dc2-af39-2aafa9d4b96c" absoluteBounds="2.78125, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="c8bb19ab-4782-48a1-b5fe-dec9feaf84ba" LastKnownName="Lifeline1" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="96ef6d51-12c0-423f-b753-03e6a5e8d14c" absoluteBounds="2.35625, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="c8bb19ab-4782-48a1-b5fe-dec9feaf84ba" LastKnownName="Lifeline1" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="df41ea56-dff6-47aa-ae21-76e795d990ea" absoluteBounds="2.78125, 1, 0, 7">
+          <lifelineMoniker Id="c8bb19ab-4782-48a1-b5fe-dec9feaf84ba" LastKnownName="Lifeline1" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lifelineShape Id="38003f9b-8638-461f-aa17-6ac52dfb4ab7" absoluteBounds="4.96875, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="53f22b4d-21fd-4ef5-9504-e057bbe033b6" LastKnownName="Lifeline2" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="ce7ceffe-4efc-4345-9b89-e75a0c84b924" absoluteBounds="4.54375, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="53f22b4d-21fd-4ef5-9504-e057bbe033b6" LastKnownName="Lifeline2" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="a162791d-922b-4141-abd1-d84c0a490a77" absoluteBounds="4.96875, 1, 0, 7">
+          <lifelineMoniker Id="53f22b4d-21fd-4ef5-9504-e057bbe033b6" LastKnownName="Lifeline2" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lifelineShape Id="e4f9e725-4cc9-4b5c-a766-f2f824f83837" absoluteBounds="6.7708334922790527, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="3102b514-4614-476c-bc56-fb8581677d95" LastKnownName="Lifeline3" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="77332d39-4602-42cc-9656-8c614cb80ce2" absoluteBounds="6.3458334922790529, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="3102b514-4614-476c-bc56-fb8581677d95" LastKnownName="Lifeline3" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="0b648d14-0d88-4e0f-8e73-52ec173a847e" absoluteBounds="6.7708334922790527, 1, 0, 7">
+          <lifelineMoniker Id="3102b514-4614-476c-bc56-fb8581677d95" LastKnownName="Lifeline3" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+  </nestedChildShapes>
+</sequenceDesignerDiagram>
