@@ -33,20 +33,6 @@ namespace ClassLibrary1
         /// </summary>
         public virtual TipoEntidad Tipo { get; private set; }
 
-        /// <summary>
-        /// Campo que describe el tipo de entidad
-        /// </summary>
-        public TipoEntidad TipoEntidad
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
         #endregion
 
         #region Constructor

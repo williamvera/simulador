@@ -47,10 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contexto.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Compile>
-    <Compile Include="Entidad_Financiera.cs" />
+    <Compile Include="EntidadFinanciera.cs" />
     <Compile Include="Oficina.cs" />
     <Compile Include="Ubigeo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

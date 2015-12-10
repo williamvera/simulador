@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Comment CommentText="SIMULACION TASAS">
-    <Position X="0.708" Y="0.635" Height="0.354" Width="1.45" />
+    <Position X="0.5" Y="0.593" Height="0.354" Width="1.45" />
   </Comment>
   <Class Name="ClassLibrary1.EntidadFinanciera">
     <Position X="4" Y="1" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAgAAAAACAAAAAEAAAAABAAAQAAAACIAAEQ=</HashCode>
-      <FileName>Entidad_Financiera.cs</FileName>
+      <HashCode>AAAAAAAAAAgAAAAACAAAAAEAAAAABAAAQAAAACAAAEQ=</HashCode>
+      <FileName>EntidadFinanciera.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="TipoEntidad" />
+      <Property Name="Tipo" />
     </ShowAsAssociation>
   </Class>
   <Class Name="ClassLibrary1.TipoEntidad">
@@ -23,7 +23,7 @@
   <Class Name="ClassLibrary1.Oficina">
     <Position X="4" Y="4.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAEIQBAwBAAEgAAAAAAAAAACAAAAUAAAAAAAAQAA=</HashCode>
+      <HashCode>AAAAAEIQBAwBAAAgAAAAAAAAAACAAAAUAAAAAAAAQAA=</HashCode>
       <FileName>Oficina.cs</FileName>
       <NewMemberFileName>oficina.cs</NewMemberFileName>
     </TypeIdentifier>
@@ -35,14 +35,14 @@
   <Class Name="ClassLibrary1.Ubigeo">
     <Position X="8.5" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEAAAAAAAAAAAAEBCAAAAAAAAAAAAAASAAAAEAAAAAA=</HashCode>
+      <HashCode>AEAAAAAAAAAAAAABCAAAAAAAAAAAAAASAAAAEAAAAAA=</HashCode>
       <FileName>Ubigeo.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibrary1.Tasa">
     <Position X="1.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAEAAAAAQBACAACAAAAAgAAAAAAAAAwAAASAIAASA=</HashCode>
+      <HashCode>AAAAEAAAAAQBACAACAAAAAgAAAAAAAAAwAAASAIAACA=</HashCode>
       <FileName>Tasa.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
