@@ -61,8 +61,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Mapeos\EntidadFinancieraMapeo.cs" />
+    <Compile Include="Mapeos\OficinaMapeo.cs" />
     <Compile Include="Mapeos\TasaMapeo.cs" />
     <Compile Include="Mapeos\TipoEntidadMapeo.cs" />
+    <Compile Include="Mapeos\UbigeoMapeo.cs" />
     <Compile Include="Mapeos\UsuarioMapeo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
